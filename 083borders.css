@@ -1,0 +1,48 @@
+body {
+  background-color: white;
+}
+
+div {
+  border: 1rem solid green;
+  border-radius: 20%;
+
+}
+
+.koalaone {
+  background-image: url("mustang/surf.jpeg");
+  background-repeat: no-repeat;
+  border-radius: 5%;
+  height: 384px;
+  width: 512px;
+  border: 20px ridge red;
+}
+
+.koalatwo {
+  background-image: url("/img/Koala.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 5%;
+  height: 384px;
+  width: 512px;
+  border: 20px ridge red;
+}
+
+.koalathree {
+  background-image: url("../img/Koala.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 5%;
+  height: 384px;
+  width: 512px;
+  border: 20px ridge red;
+}
+
+.koalafour {
+  background-image: url("img/Koala.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 5%;
+  height: 384px;
+  width: 512px;
+  border: 20px ridge red;
+}
