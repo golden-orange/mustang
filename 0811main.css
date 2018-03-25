@@ -1,0 +1,20 @@
+body {
+  background-color: white;
+}
+
+div {
+  width: 400px;
+  height: 200px;
+  border: 40px dashed red;
+  margin: 0 auto; /* creates outermost layer and centers selector object TRBL = 20px */
+  /* margin: 20px 60px; /* sets top and bottom to 20px, right and left to 60px TB = 20px RL = 60px */
+  /* margin: 20px 60px 30px 40px; /* set T R B L*/
+
+}
+
+.div2 {
+  box-sizing: border-box; /* makes entire box (content+padding+border+margin < dimensions (width & height)) */
+  background-image: url("img/Chrysanthemum.jpg");
+  background-size: cover; /* fill entire selector object */
+  background-repeat: no-repeat; /* stretches image preventing repeating image if image is too small to fill selector object area */
+}
