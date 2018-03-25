@@ -1,0 +1,40 @@
+body { background-color:white; }
+
+div { width: 100px;
+      height: 100px;
+      border: 1px solid red;
+      border-radius: 10%;
+      background-image: url("../img/surf.jpeg");
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+img {
+      border: 10px solid red;
+      border-radius: 20px;
+    }
+
+.surfone {
+      border: 30px groove orangered;
+      border-radius: 10px;
+}
+
+.surftwo {
+      border: 30px dashed orangered;
+}
+
+.surfthree {
+      border: 30px dotted orangered;
+      border-radius: 20px;
+}
+
+.surffour {
+      border: 30px double orangered;
+}
+
+.surffive {
+
+      border: 10px double green;
+
+
+}
