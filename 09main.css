@@ -1,0 +1,27 @@
+body {
+  background-color: #3366CC;
+  margin: 0 auto; /*  centers element in parent  */
+
+}
+
+div {
+  border: 5px solid black;
+  width: 500px;
+  margin: 0 auto;
+  background-color: #0F9D58;
+}
+
+img {
+  border: 15px groove yellow;
+  border-radius: 90%;
+  margin: 0 auto;
+  display: block;
+}
+
+#header-one {
+  color: #3366CC;
+}
+
+#header-two {
+  color: #DB4437;
+}

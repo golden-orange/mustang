@@ -1,0 +1,49 @@
+body {
+  font-size: 36px;
+}
+
+li:first-child {
+  color: red;
+}
+
+ul:first-child {
+  background-color: orangered;
+}
+
+ul:nth-child(odd) :hover {
+  background-color: yellow;
+}
+
+li:nth-child(even) {
+  color: green;
+}
+
+ul:nth-child(even) :hover {
+  background-color: yellow;
+}
+
+table, tr, td {
+  font-size: 10px;
+  width: 100%;
+  border: 1px solid black;
+}
+
+tr:nth-child(even) {
+  background-color: rgba(128, 128, 128, 0.49);
+}
+
+tr:nth-child(even) :hover {
+  background-color: rgba(128, 128, 128, 0.09);
+}
+
+tr:nth-child(odd) {
+  background-color: rgba(128, 128, 128, 0.19);
+}
+
+tr:nth-child(odd) :hover {
+  background-color: rgba(128, 128, 128, 0.09);
+}
+
+tr:nth-child(3) :hover {
+  background-color: yellow;
+}
