@@ -1,0 +1,37 @@
+body {
+  font-size: 36px;
+  text-align: center;
+}
+
+.emphasize {
+  color: red;
+}
+
+#promote {
+  color: blue;
+  font-weight: bold;
+}
+
+/* attribute selectors */
+[contenteditable] {
+  color: red;
+  border: 1px dashed black;
+}
+
+[href] {
+  border: 2px dashed green;
+}
+
+[src] {
+  border: 10px dashed red;
+}
+
+/* any element that contains target=_blank or target=_self attributes */
+[target=_blank] {
+  color: red;
+}
+
+[target=_self] {
+  color: orangered;
+  border: 2px dotted orangered;
+}

@@ -1,0 +1,10 @@
+
+
+a {
+  font-size: 100px;
+  color: red;
+}
+a:active {
+  color: red;
+  font-weight: bold;
+}
