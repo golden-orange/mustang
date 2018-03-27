@@ -1,0 +1,39 @@
+* {
+  /* border: 1px dotted black; */
+}
+
+div {
+  width: 400px;
+  margin: 0 auto;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  color: red;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-weight: 500;
+  margin: 5px 0px;
+  border-bottom: 0.5  px dotted gray;
+}
+
+p::first-letter {
+  font-family: sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  color: red;
+}
+
+p::first-line {
+  line-height: -5px;
+}

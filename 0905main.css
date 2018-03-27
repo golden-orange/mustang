@@ -1,0 +1,12 @@
+div p { /* children of div */
+  color: red;
+}
+
+div + p { /*  */
+  color: green;
+  font-weight: bold;
+}
+
+div ~ p {
+  color: orange;
+}

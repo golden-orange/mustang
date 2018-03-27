@@ -1,0 +1,35 @@
+div {
+    margin: 0 auto;
+    width: 300px;
+    border: 1px solid black;
+}
+
+div p {
+  margin: 0 auto;
+  color: red;
+  font-weight: bold;
+  border: 1px solid black;
+  text-align: center;
+}
+
+div p:hover {
+  font-weight: bold;
+  color: pink;
+}
+
+div p:nth-child(even) {
+  color: blue;
+  font-weight: lighter;
+}
+
+div ~ p {
+  background-color: orange;
+}
+
+div > p:hover {
+  background-color: red;
+}
+
+div + p:hover {
+  background-color: yellow;
+}

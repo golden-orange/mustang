@@ -1,0 +1,11 @@
+.myclass li:nth-child(3) {
+  color:red;
+}
+
+.myclass li:nth-child(4) {
+  color:red;
+}
+
+.myclass li:nth-child(5) {
+  color:red;
+}

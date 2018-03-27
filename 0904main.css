@@ -1,0 +1,40 @@
+a:link {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: black;
+}
+
+a:visited {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: purple;
+}
+
+a:hover {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: red;
+}
+
+a:active {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: green;
+}
+
+div > p {
+  color: red;
+}
+
+p::first-letter {
+  font-size: 11px;
+  color: black;
+}
+
+p::first-line {
+  color: red;
+}
