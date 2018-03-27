@@ -1,0 +1,62 @@
+div {
+  border: 1px solid red;
+  background-color: gray;
+  text-align: center;
+  height: 100px;
+  width: 100px;
+}
+
+.static {
+  position: static;
+  height: 500px;
+  margin 400px auto;
+  max-width:600px;
+  box-sizing: border-box;
+  border: 3px double darkgray;
+  color: gray;
+  font-size: 96px;
+}
+.relative {
+  position: relative;
+  top: -450px;
+  left: 250px;
+  max-width: 400px;
+  height: 400px;
+  background-color: yellow;
+  border: 2px double gold;
+  font-size: 96px;
+}
+
+.fixed {
+  position: fixed;
+  top: 50px;
+  left: 650px;
+  max-width: 200px;
+  height: 100px;
+  background-color: lightblue;
+  border: 2px solid blue;
+  font-size: 96px;
+}
+
+.absolute {
+  position: absolute;
+  top: 350px;
+  left: 250px;
+  max-width: 150px;
+  height: 100px;
+  background-color: lightgreen;
+  border: 2px solid green;
+  font-size: 36px;
+}
+
+.box2 {
+  display: inline-block;
+}
+
+.box2:hover {
+  display: inline-block;
+  background-image: url("img/Jellyfish.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

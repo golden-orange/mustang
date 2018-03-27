@@ -1,0 +1,21 @@
+.container {
+  background: #f2f2f2;
+  width: 65%;
+  margin: 0 auto;
+}
+
+figure img {
+  padding-left: 10px;
+}
+
+h1 {
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  color: #880000;
+  padding: 10px;
+}
+
+article {
+  background: #880000;
+  color: #f2f2f2;
+  padding: 10px;
+}
