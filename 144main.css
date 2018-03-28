@@ -1,0 +1,17 @@
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+
+}
+
+div {
+  width:100px;
+  height:100px;
+  background-color: yellow;
+  border: 2px double red;
+  text-align: center;
+  margin: 1em;
+}
