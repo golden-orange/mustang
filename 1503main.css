@@ -1,0 +1,9 @@
+* {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.div0 {
+  @media (max-width: 600px);
+  color: hotpink;
+}

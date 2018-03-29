@@ -1,0 +1,4 @@
+.div2 {
+  @media (min-width: 900px);
+  color: red;
+}

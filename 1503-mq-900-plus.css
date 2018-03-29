@@ -1,0 +1,9 @@
+* {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.div2 {
+  @media (min-width: 900px);
+  color: red;
+}
