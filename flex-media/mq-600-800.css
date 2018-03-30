@@ -1,0 +1,12 @@
+/*  top row undivided, second row split 75/25, with 003/002 pattern */
+
+
+.c2 {
+  width: 50%;
+  order: 2;
+}
+
+.c3 {
+  width: 50%;
+  order: 1;
+}

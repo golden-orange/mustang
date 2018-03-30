@@ -1,0 +1,14 @@
+.div1 {
+  width: 60%;
+  order: 2;
+}
+
+.div2 {
+  width: 40%;
+  order: 1;
+}
+
+.div3 {
+  width: 100%;
+  order: 3;
+}

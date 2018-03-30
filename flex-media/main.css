@@ -1,0 +1,49 @@
+body {
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header, .c1, .c2, .c3 {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  min-height: 150px;
+}
+/* .c1, .c2, .c3 {
+  height: 150px;
+} */
+/*
+.c1 {
+  width: 100%;
+}
+
+.c2 {
+  width: 100%;
+}
+
+.c3 {
+  width: 100%;
+} */
+
+/* section {
+  height: auto;
+  width: 50%;
+} */
+
+/* main {
+  display: flex;
+  flex-flow: row wrap;
+} */
+section {
+  flex-flow: row wrap;
+  width: 100%;
+  margin: 0 auto;
+  padding: 25px;
+}
+
+article {
+  margin: 0 auto;
+  padding: 25px;
+}

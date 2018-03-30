@@ -1,0 +1,22 @@
+/*  same as previous, with 002/003 pattern  */
+
+/* .c3 {
+  order: 3;
+} */
+
+/*  all on top row, with 25/50/25 split and 003/002/001 pattern  */
+
+.c1 {
+  width: 25%;
+  order: 3;
+}
+
+.c2 {
+  width: 50%;
+  order: 2;
+}
+
+.c3 {
+  width: 25%;
+  order: 1;
+}
