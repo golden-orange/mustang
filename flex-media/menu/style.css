@@ -1,0 +1,19 @@
+ul {
+  background-color: #5DADE2;
+  border-bottom: 1px solid #1F618D;
+  border-top: 1px solid #BDC3C7;
+}
+
+a {
+  background-color: #5DADE2;
+  color: #F7F9F9;
+  border-top: 1px solid #BDC3C7;
+  border-bottom: 1px solid #1F618D;
+  text-decoration: none;
+  text-align: center;
+  padding: 20px 0;
+}
+
+a:hover {
+  background: #8E44AD;
+}

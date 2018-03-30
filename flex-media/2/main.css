@@ -1,0 +1,19 @@
+body, section {
+  display: flex;
+  flex-flow: row wrap;
+  min-height: 150px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.c4, .c1, .c2, .c3 {
+  min-height: 150px;
+  width: 100%;
+
+}
+
+article {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}

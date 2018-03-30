@@ -1,0 +1,12 @@
+ul {
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  list-style: none;
+  border-bottom: 1px solid #1F618D;
+
+}
+
+a {
+  padding: 1em;
+  border: 0;
+}

@@ -1,0 +1,27 @@
+body {
+  width: 800px;
+}
+
+.c2 {
+  order: 6;
+}
+
+.c3 {
+  order: 5;
+}
+
+.c4 {
+  order: 4;
+}
+
+.c5 {
+  order: 3;
+}
+
+.c6 {
+  order: 2;
+}
+
+.c7 {
+  order: 7;
+}
