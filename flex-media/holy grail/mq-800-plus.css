@@ -1,0 +1,26 @@
+* {
+  -webkit-box-sizing: border-box;
+}
+
+header {
+  order: 1;
+}
+/* cannot use container for asides due to change in levels and location in flow over different viewport sizes */
+.aside1 {
+  width: 15%;
+  order: 2;
+}
+
+.aside2 {
+  width: 15%;
+  order: 4;
+}
+
+article {
+  width: 70%;
+  order: 3;
+}
+
+footer {
+  order: 5;
+}

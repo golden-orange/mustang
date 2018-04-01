@@ -1,0 +1,14 @@
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  /* without height value all elements are squashed against top */
+  height: 100vh; /*  vh is viewport height, meaning 100% or entire viewport */
+  background-image: url("tropics.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ECF0F1;
+  font-size: 96px;
+}

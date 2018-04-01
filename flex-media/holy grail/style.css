@@ -1,0 +1,35 @@
+body {
+  font-weight: bold;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+header, .aside1, .aside2, footer {
+  text-align: center;
+  min-height: 50px;
+  padding-top: 20px;
+}
+
+p {
+  margin: 20px 5px;
+}
+
+header {
+  background-color: orange;
+}
+
+article {
+  background-color: lightblue;
+}
+
+.aside1 {
+  background-color: gold;
+}
+
+.aside2 {
+  background-color: hotpink;
+}
+
+footer {
+  background-color: lightgreen;
+}
