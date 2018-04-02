@@ -1,6 +1,4 @@
-* {
-  -webkit-box-sizing: border-box;
-}
+
 
 header {
   order: 1;
@@ -11,6 +9,19 @@ header {
   order: 2;
 }
 
+/*  rather than class or id, could have used n-th child(n) for example:
+
+aside:nth-child(3) {
+  ...
+}
+
+aside:nth-child(4) {
+  ...
+}
+
+the advantage to using nth-child includes having less code to track
+
+*/
 .aside2 {
   width: 15%;
   order: 4;

@@ -1,0 +1,18 @@
+body {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+header, article, footer {
+  width: 100%;
+}
+
+:nth-child(3) {
+  display: inline-block;
+  width: 50%;
+}
+
+:nth-child(4) {
+  display: inline-block;
+  width: 50%;
+}

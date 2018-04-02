@@ -1,0 +1,27 @@
+/* html, body, ul { adding ul to zero reset elements list removed left margin
+  issue that created white space between elements and page border
+
+  moved block to main css. see note there.
+
+  border: 0;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+} */
+
+li {
+  /* text-decoration: none; where does this go to remove lines under links? it
+  does not seem to work in li element
+  ANSWER: text-decoration goes in a elements */
+  background-color: skyblue;
+  border-bottom: 1px solid white;
+  border-top: 1px solid darkgray;
+  list-style: none;
+}
+
+/* how to get mouseover effect from entire li element? */
+a {
+  font-family: serif;
+  text-decoration: none;
+  color: white;
+}

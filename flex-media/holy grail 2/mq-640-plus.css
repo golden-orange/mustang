@@ -1,0 +1,32 @@
+/* flex is added to the top level style since it was unnecessary at the main level
+at this level it could have been added to the body and container element wrapping
+nav, aside, article. */
+
+body {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+nav, aside {
+  width: 15%;
+}
+
+article {
+  width: 70%;
+}
+
+/* section:nth-child() does not work with this due to nav, aside, article widths
+set in main sheet */
+/* therefore, section becomes redundant as the declaration block above shows */
+
+/* section > nav {
+  width: 15%;
+}
+
+section > aside {
+  width: 15%;
+}
+
+section > article {
+  width: 70%;
+} */

@@ -1,0 +1,30 @@
+/* problem: the below creates column effect, using li width of 5%
+  flex property goes into parent element for elements that require
+  realigning. since list items require resizing then the parent element
+  ought to be ul
+
+*/
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+li {
+  width: 10%;
+}
+
+
+/* problem: below puts elements into top left corner as row. the ul width
+  property is not used.
+
+ul {
+  display: flex;
+  width: 100%;
+}
+
+li {
+  justify-content: flex-end;
+  width: 5%;
+} */

@@ -1,0 +1,19 @@
+header {
+  background-color: orange;
+}
+
+article {
+  background-color: skyblue;
+}
+
+:nth-child(3) {
+  background-color: yellow;
+}
+
+:nth-child(4) {
+  background-color: #AF7AC5;
+}
+
+footer {
+  background-color: lightgreen;
+}

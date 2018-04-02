@@ -1,0 +1,39 @@
+/* reset all elements to default */
+html, body, nav, ul, li, main, section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  padding: 20px   30px;
+  min-width: 360px;
+}
+
+nav {
+  border: 3px solid red;
+  padding: 20px;
+  display: block;
+}
+
+ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+li {
+  list-style: none;
+  align-content: space-between;
+}
+
+main {
+  border: 3px solid red;
+  padding: 20px;
+}
+
+section {
+  padding: 5px 0;
+}

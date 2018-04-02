@@ -1,0 +1,23 @@
+body {
+  width: 800px;
+  margin: 0 auto;
+}
+
+nav {
+  display: inline-block;
+  width: 15%;
+  vertical-align: top;
+  min-height: 250px;
+  padding: 10px;
+}
+
+main {
+  display: inline-block;
+  width: 85%;
+  min-height: 250px;
+}
+
+li {
+  text-align: left;
+  padding: 7px 0;
+}

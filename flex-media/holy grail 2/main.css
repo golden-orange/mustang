@@ -1,0 +1,35 @@
+html, body, header, nav, article, aside, footer {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*  flex is not required at this level. using default block display we can get
+the same effect as flex. block causes each element to take up 100% of width
+same as flex row wrap.
+
+if flex is not used in main it will need to be added in the next style level up.
+
+*/
+/* body {
+  display: flex;
+  flex-flow: row wrap;
+} */
+
+/* section could be used as container for nav, article, aside. however, the
+declaration block below section would need rewriting. section is not really
+useful as a styling or formatting element, though it remains useful as
+semantic HTML */
+
+/* section {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+} */
+
+header, nav, article, aside, footer {
+  width: 100%;
+  min-height: 50px;
+  padding: 30px;
+}

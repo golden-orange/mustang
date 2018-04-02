@@ -1,0 +1,21 @@
+html, body, p {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+p {
+  border: 3px solid red;
+  text-align: center;
+  padding: 50px;
+  font-size: 68px;
+  width: 100%;
+  align-items: center;
+}

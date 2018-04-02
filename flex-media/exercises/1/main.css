@@ -1,0 +1,26 @@
+/* moved declaration block below from style to main css and corrected issue
+  that set all elements in top css to top left corner  */
+
+
+html, body, ul, li { /* adding ul to zero reset elements list removed left margin
+  issue that created white space between elements and page border  */
+  border: 0;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  width: 100%;
+}
+
+li {
+  width: 100%;
+  text-align: center;
+  padding: 20px 0; /* adding padding doesnt seem to affect height. perhaps
+  due to padding being set to zero for li element in style css which follows
+  main in cascade
+
+  removing li from elements set to zero removed above issue
+   */
+}
