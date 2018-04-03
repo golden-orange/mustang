@@ -1,0 +1,26 @@
+html, body, div {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100vw;
+}
+
+.c001 {
+  position: fixed;
+  top: 200px;  /* establish positioning */
+  /* left: 20px; */
+  /* bottom: 90px */
+  right: 10px; /*  will go off screen when screen shrunk enough */
+  border: 4px solid black;
+  background-color: gold;
+  width: 250px;
+  height: 500px;
+}
+
+.c002 {
+  margin: 0 auto;
+  height: 2500px;
+  width: 150px;
+  background-color: skyblue;
+  border: 4px dotted green;
+}

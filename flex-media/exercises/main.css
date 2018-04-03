@@ -1,0 +1,11 @@
+
+
+div {
+  border: 5px solid red;
+  background-color: gold;
+  width: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  margin: -5px;  /* box-sizing border-box adjusts border and padding only,
+  not margin. margin must either be reset to 0 or factored into element. */
+}
