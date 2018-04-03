@@ -1,0 +1,30 @@
+/* create series of squares using relative positioning */
+
+html, body {
+  padding: 0;
+  margin: 0;
+  border 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  border: 2px solid black;
+  width: 80%;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+div {
+  background-color: orange;
+  border: 2px solid tan;
+  width: 75px;
+  padding: 50px;
+}
+
+:nth-child(2) {
+  position: relative;
+  top: 10px;
+  left: 20px;
+}

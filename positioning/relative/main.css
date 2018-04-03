@@ -1,0 +1,21 @@
+html, body, div {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+div {
+  width: 400px;
+  height: 500px;
+  background-color: green;
+  border: 33px double black;
+  margin: 0 auto;
+}
+
+.c-relative {
+  position: relative;
+  background-color: gold;
+  top: -250px;
+  left: 10px;
+  /* left: 200px; */
+}

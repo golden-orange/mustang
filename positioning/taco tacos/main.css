@@ -1,0 +1,28 @@
+html, body, nav, main {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  border: 5px solid black;
+  margin: 0 auto;
+  width: 80%;
+}
+
+nav {
+  position:absolute;
+  border-right: 1px dotted black;
+  padding: 10px;
+  width: 200px;
+}
+
+main {
+/*  position: absolute;   collapses body  */
+  margin-left:200px;
+}
+
+section {
+  padding: 10px;
+}
