@@ -1,0 +1,42 @@
+
+
+p:nth-child(1) {
+  font-family: serif;
+}
+
+p:nth-child(2) {
+  font-family: sans-serif;
+}
+
+p:nth-child(3) {
+  font-family: 'Chicle', cursive;
+}
+
+p:nth-child(4) {
+  font-style: italic;
+  font-variant-caps: small-caps;
+}
+
+p:nth-child(5) {
+  font-
+}
+
+h1 {
+  text-shadow: 0px 5px 4px red;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p:nth-child(8) {
+  text-decoration: line-through;
+}
+
+p:nth-child(11) {
+ text-indent: 3%;
+}
