@@ -1,0 +1,85 @@
+html, body, header, nav, main, article {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    /* height: 100%;
+    width: 100%; */
+}
+
+body {
+  background: url("img/fog.jpg") no-repeat top center fixed;
+  background-size: cover;
+}
+
+header {
+    color: #094562;
+    text-align: center;
+    font-size: 48px;
+}
+
+/* flex aligns navigation fine  */
+/* ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin-left: 5px;
+} */
+
+/* however, can also use inline-block. to center, adjust nav container size and auto center same, then simply add margin to list items.  */
+nav {
+  width: 50%;
+  margin: 1.25em auto;
+}
+
+li {
+  display: inline-block;
+  list-style: none;
+  text-align: center;
+  padding: 20px;
+  margin-left: 15px;
+  font-size: 30px;
+}
+
+li:hover {
+  background-color: hotpink;
+  border-radius: 5px;
+  color: white;
+}
+
+p {
+  font-size: 4em;
+}
+
+
+.box-1 {
+    background-color: hsla(145, 45%, 65%, 0.25);
+    height:250px;
+    width: auto;
+    text-align: center;
+    margin: 20px 20px 20px 20px;
+}
+
+.box-2 {
+    background-color: hsla(6, 59%, 50%, 0.25);
+    height:250px;
+    width: auto;
+    text-align: center;
+    margin: 20px 20px 20px 20px;
+}
+
+.box-3 {
+    background-color: hsla(145, 63%, 43%, 0.25);
+    height:250px;
+    width: auto;
+    text-align: center;
+    margin: 20px 20px 20px 20px;
+}
+
+.box-4 {
+    background-color: hsla(283, 34%, 28%, 0.25);
+    height:250px;
+    width: auto;
+    text-align: center;
+    margin: 20px 20px 20px 20px;
+}
