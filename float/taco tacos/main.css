@@ -1,0 +1,34 @@
+html, body, nav, main {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+/* when child elements are removed from natural flow the parent container will collapse */
+body {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* when floated elements share a row each must be designated a width value.
+the floated element is removed from the natural flow and therefore removed from the default block characteristic of occupying entire row. */
+nav {
+  float: left;
+  width: 20%;
+  border: 2px solid black;
+}
+
+main {
+  /* float: right; collapses parent container */
+  width: 80%;
+  margin-left: 20%;
+  border: 2px solid black;
+}
+
+/* floated elements are removed from natural flow of elements. therefore, any element not floated will render on the screen above floated elements.
+to render non-floated elements below floated elements use clear declaration. */
+footer {
+  clear: both;  /* what differences between clear values? */
+  border: 5px solid red;
+}

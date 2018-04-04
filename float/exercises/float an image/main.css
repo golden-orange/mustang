@@ -1,0 +1,22 @@
+html, body, nav {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  width: 80%;
+  margin: 0 auto;
+  border: 5px solid gray;
+  overflow: auto; /* because floated element dimensions are larger than parent container. */
+}
+
+/* once we remove the image from the natural flow the p element will float up around or beside the image to fill the vacancy. margin-left will be required in the p element declaration block to avoid overlapping the floated element */
+
+img {
+  float: left;
+}
+
+/* p element did not require margin-left value because the element was not being floated */
+/* the floated element overflows the container because the former is removed from the natural flow. to counter this we use overflow auto which goes in the container declaration block */
