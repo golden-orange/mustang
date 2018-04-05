@@ -37,6 +37,10 @@ p:nth-child(8) {
   text-decoration: line-through;
 }
 
+p:nth-child(9) {
+  letter-spacing: 3px;
+}
+
 p:nth-child(11) {
  text-indent: 3%;
 }

@@ -1,0 +1,47 @@
+* {
+  border: 1px solid hotpink;
+}
+
+html, body, h1 {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+
+.idx-atf {
+  /* default display setting is block which takes entire row width */
+  background: url("img/background-photo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.idx-center {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+h1, h2, h3 {
+  color: white;
+  text-align: center;
+}
+h1 {
+  font-family: 'Kotta One', serif;
+}
+
+h1, h3 {
+  margin-bottom: 50px;
+}
+
+h2, h3 {
+  font-size: 0.75rem;
+  font-family: 'Cantarell', sans-serif;
+}
+button {
+
+}
