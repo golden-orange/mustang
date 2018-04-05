@@ -16,7 +16,7 @@ html, body, h1, h2, h3, button {
   /* default display setting is block which takes entire row width */
   /* add background color for fallback in case visitor has images disabled */
   background-color: navy;
-  background: url("img/background-photo-mobile-devices.jpg");
+  background: url("img/background-photo.jpg");
   /* when using background-image also set background attachment to fixed so resizing screen does not cause image to resize or be scrollable */
   background-repeat: no-repeat;
   background-size: cover;
@@ -52,16 +52,11 @@ h2, h3 {
   font-size: 0.75rem;
 }
 
-h3 {
-  margin-bottom: 8rem;
-}
-
 button {
   padding: 5px;
   color: white;
   border: 1px solid white;
   background-color: transparent;
   border-radius: 5px;
-  font-size: 2rem;
   text-align: center;
 }

@@ -1,0 +1,63 @@
+/* * {
+  border: 3px dotted hotpink;
+} */
+
+html, body, nav, ul, li, main {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: cyan;
+
+}
+
+ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  list-style: none;
+}
+
+li > a {
+  display: block; /*  */
+  color: white;
+  background-color: cyan;
+  width: 300px;
+  font-size: 1rem;
+  text-decoration: none;
+  text-align: center;
+  padding: 15px;
+}
+
+li > a:hover {
+  background-color: #03A9F4;
+}
+
+main {
+  border: 2px solid blue;
+  padding: 20px;
+}
+
+small > a {  /* makes entire element clickable */
+  display: block;
+  box-sizing: border-box;
+  height: 10vh;
+  padding: 30px;
+  background-color: #4A235A;
+  color: white;
+  font-size: 0.75rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+small > a:hover {
+  background-color: #BA68C8;
+}
+
+span {
+  display: block;
+  margin: 15px 0;
+}

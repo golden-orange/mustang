@@ -1,0 +1,51 @@
+html, body, nav, ul, main, p, span, a {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  list-style: none;
+  background-color: cyan;
+}
+
+li > a {
+  display: block;
+  width: 300px;
+  padding: 10px 0;
+  background-color: cyan;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+}
+
+li > a:hover {
+  background-color: turquoise;
+}
+
+main {
+  margin: 0 auto;
+  border: 4px solid blue;
+  padding: 30px;
+}
+
+small > a {
+  display: block;
+  height: 100px;
+  padding: 40px;
+  text-align: center;
+  background-color: blue;
+  color: white;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+span {
+  display: block;
+  padding: 20px;
+}
