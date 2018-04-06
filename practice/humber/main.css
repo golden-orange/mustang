@@ -1,0 +1,51 @@
+html, body, header, nav, main, ul, li, img, p, h1, h2 {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  border: 2px solid hotpink;
+}
+
+header-logo {
+  border: 2px solid hotpink;
+  width: 30%;
+  border: 2px solid red;
+}
+
+#idx-admin-nav {
+  height: 100px;
+  width: 30%;
+  border: 2px solid hotpink;
+}
+
+#main-nav {
+  margin: 0 auto;
+  width: 50%;
+  list-style: none;
+  border: 2px solid hotpink;
+}
+
+#idx-admin-nav > ul {
+  list-style: none;
+  display: flex;
+  flex-flow: row nowrap;
+  border: 2px solid hotpink;
+}
+
+#idx-admin-nav > ul > li {
+  width: 70%;
+  text-align: center;
+  border: 2px solid hotpink;
+}
+
+main {
+  margin: 0 auto;
+  border: 2px solid hotpink;
+
+}
