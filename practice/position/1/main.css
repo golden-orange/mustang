@@ -2,7 +2,7 @@
   border: 3px solid black;
 } */
 
-html, body, header, img, nav, aside, main {
+html, body, header, img, nav, aside, main, section, h1, h2 {
   padding: 0;
   margin: 0;
   border: 0;
@@ -102,5 +102,15 @@ article {
 }
 
 footer {
+  display: block;
   background-color: lightgray;
+  height: 55vh;
+}
+
+footer > section {
+  display: inline-block;
+}
+
+footer > section > ul > li {
+  display: block;
 }

@@ -1,0 +1,21 @@
+
+
+ul {
+  text-align: right;
+  background-color: cyan;
+}
+
+li {
+  display: inline-block;
+}
+
+li > a {
+  display: block;
+  padding: 10px;
+  font-family: Times, serif;
+  font-size: 1.25rem;
+  text-decoration: none;
+  background-color: cyan;
+  color: white;
+  border: none;
+}
