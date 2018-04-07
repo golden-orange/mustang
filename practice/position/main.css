@@ -1,0 +1,70 @@
+html, body, div {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  border: 5px solid hotpink;
+  height: 200vh;
+  width: 100vw;
+}
+
+div {
+  border: 3px solid black;
+  background-color: gold;
+  font-size: 2em;
+}
+
+.c01 {
+  border: 6px dotted black;
+  text-align: center;
+  width: 100%;
+}
+
+.c001, .c002, .c003 {
+  display: inline-block;
+  width: 300px;
+}
+
+.c001 {
+  /* position: relative; */
+}
+
+.c002 {
+  /* position: relative; */
+}
+
+  /* using inline-block formatting */
+.ib00 {
+  border: 5px dotted blue;
+  background-color: rgba(3, 169, 244, 0.3);
+  text-align: center;
+}
+
+.ib01, .ib02, .ib03 {
+  display: inline-block;
+  border: 3px inset gray;
+  background-color: 3, 169, 240. 0.9);
+  margin: -5px;
+}
+
+/* create right aside using flex box .*/
+/* aside {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-end;
+} */
+
+/* right aside that is fixed */
+aside {
+  position:fixed;
+  right: 0;
+  top: 590px;
+  height: 200px;
+}
+
+.as-01 {
+  position: absolute;
+}
