@@ -1,0 +1,106 @@
+/* * {
+  border: 3px solid black;
+} */
+
+html, body, header, img, nav, aside, main {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: 'Merriweather', serif;
+  /* font-family: 'IBM Plex Sans', sans-serif; */
+}
+
+body {
+  width: 90vw;
+  margin: 0 auto;
+}
+
+/* fonts */
+h1 {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+article {
+  font-family: 'Merriweather', serif;
+  font-size: 1rem;
+}
+
+/*************************************************************************************************  HEADER ************************ **************************************************************************************/
+
+header {
+  display: inline-block;
+  width: 100%;
+  height: 100px;
+}
+
+img {
+  width: 75px;
+  height: 75px;
+}
+
+nav {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+ul {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  list-style: none;
+}
+
+nav > ul > li > a {
+  text-decoration: none;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 1.35rem;
+  padding: 20px;
+  border: 2px white;
+  border-radius: 5px;
+  color: RGB(85, 107, 47);
+}
+
+nav > ul > li > a:hover {
+  border: 2px inset white;
+}
+
+#idx-hdr-as {
+  height: 30px;
+  padding: 30px;
+  text-align: center;
+}
+
+#idx-hdr-as > a {
+  display: inline-block;
+  padding: 10px 10px;
+  margin: 0 15px;
+  background-color: RGB(32, 178, 170);
+  border: 1px solid blue;
+  border-radius: 3px;
+  text-decoration: none;
+  color: white;
+  font-size: 2rem;
+}
+
+main {
+  width: 80%;
+  margin: 50px auto;
+  border: 5px dotted hotpink;
+}
+
+article {
+  margin: 0 auto;
+}
+
+footer {
+  background-color: lightgray;
+}
