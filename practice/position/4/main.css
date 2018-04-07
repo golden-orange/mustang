@@ -1,0 +1,16 @@
+
+
+div {
+  background-color: gray;
+  border: 2px solid red;
+  text-align: center;
+  padding: 10px;
+  height: 100px;
+  display: inline-block;
+  margin: 30px;
+}
+
+#div-block {
+  display: block;
+  height: 10px;
+}
