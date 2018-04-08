@@ -1,0 +1,13 @@
+p {
+  font-size: 1em;
+  /* disable font-boosting  */
+  /*NOTE: viewport meta tag must be disabled to see this work  */
+  /* max-height: 1000000px;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: none; */
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
