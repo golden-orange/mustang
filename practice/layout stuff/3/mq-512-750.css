@@ -1,0 +1,36 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 80vw;
+  border: 5px dotted black;
+  margin: 20px auto;
+}
+
+nav:first-child > ul {
+  list-style: none;
+  text-align: right;
+  margin-right: 20px;
+}
+
+nav:first-child > ul > li {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 10px 5px;
+}
+
+nav:first-child > ul > li > a {
+  padding: 15px;
+  border: 1px solid hotpink;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+li > a {
+  display: inline-block;
+  font-size: 1.1rem;
+}
