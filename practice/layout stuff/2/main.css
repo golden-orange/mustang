@@ -1,0 +1,71 @@
+html, body, nav, article, aside, h1, h2, .asd-1, a {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 80%  ;
+  margin: 10px auto;
+  border: 5px solid red;
+}
+
+nav {
+  padding: 10px;
+  text-align: center;
+  border: 2px dotted aqua;
+}
+
+ul {
+  list-style: none;
+}
+
+li > a {
+  display: inline-block;
+  padding-left: 10px;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: bold;
+  color: red;
+}
+
+
+h1 {
+  background-color: gold;
+  border: 3px double black;
+  width: 500px;
+}
+
+.hdr-1 {
+}
+
+article {
+  display: flex;
+  width: 74%;
+  border: 2px dotted black;
+  vertical-align: top;
+}
+
+span {
+  font-size: 1.1rem;
+}
+
+aside {
+  display: inline-block;
+  position: relative;
+  top: -250px;
+  right: -600px;
+  width: 25%;
+  border: 2px dotted gray;
+}
+
+.asd-1 {
+  width: 100%;
+  display: inline-block;
+  border: 3px double black;
+}
+
+footer {
+  border: 2px dotted blue;
+}

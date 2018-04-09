@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="main.css">
+  <title>SVG Path</title>
+</head>
+<body>
+  <svg version="1.1"
+      xmlns="http://www.w3.org/2000/svg"
+      width="800"
+      height="800">
+
+      <path d="M100, 378, l1121, 122" fill="black" stroke="black"/>
+      <path d="m30, 30, L40, 40" fill="black" stroke="black"/>
+      <text x="370px" y="52px" dx="33" dy="133" rotate="3">Hello World!</text>
+      <text>
+        <textPath xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#my_path">
+          This text follows a curve.
+      </text>
+
+      <path id="my_path" d="M 420,620 C 420,50 120,10 300,220" fill="transparent" />
+  </svg>
+
+  <svg class="chart" width="420" height="150" aria-labelledby="title desc" role="img">
+    <title id="title">A bar chart showing information</title>
+    <desc id="desc">4 apples; 8 bananas; 15 kiwis; 16 oranges; 23 lemons</desc>
+    <g class="bar">
+      <rect width="40" height="19"></rect>
+      <text x="45" y="9.5" dy=".35em">4 apples</text>
+    </g>
+    <g class="bar">
+      <rect width="80" height="19" y="20"></rect>
+      <text x="85" y="28" dy=".35em">8 bananas</text>
+    </g>
+    <g class="bar">
+      <rect width="150" height="19" y="40"></rect>
+      <text x="150" y="48" dy=".35em">15 kiwis</text>
+    </g>
+    <g class="bar">
+      <rect width="160" height="19" y="60"></rect>
+      <text x="161" y="68" dy=".35em">16 oranges</text>
+    </g>
+    <g class="bar">
+      <rect width="230" height="19" y="80"></rect>
+      <text x="235" y="88" dy=".35em">23 lemons</text>
+    </g>
+  </svg>
+
+</body>
+</html>
