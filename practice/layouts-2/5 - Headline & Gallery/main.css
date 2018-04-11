@@ -1,0 +1,31 @@
+html, body, ul {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+nav > ul > li > a, article, footer {
+  border: 2px solid black;
+  background-color: orangered;
+}
+
+a {
+  display: block;
+  padding: 10px;
+}
+
+header > div {
+  height: 100px;
+  width: 150px;
+}
+
+
+
+article {
+  padding: 10px;
+}
+
+footer {
+  height: 150px;
+}
