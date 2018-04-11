@@ -1,0 +1,29 @@
+header {
+  display: block;
+  border: 3px dotted hotpink;
+
+}
+
+nav {
+  display: inline-block;
+  border: 3px solid hotpink;
+  margin-left: 61%;
+}
+
+.logo {
+  display: inline-block;
+  max-width: 20%;
+  border: 3px solid black;
+}
+
+ul {
+  border: 3px solid black;
+}
+
+li {
+  display: inline-block;
+}
+
+a {
+  border: none;
+}

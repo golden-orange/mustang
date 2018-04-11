@@ -1,0 +1,44 @@
+html, body, ul, nav, .art-head {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.main-img {
+  /* border: 2px solid hotpink; */
+}
+
+
+a {
+  display: block;
+  padding: 10px;
+  border: 1px solid red;
+  background-color: gold;
+  text-decoration: none;
+}
+
+.main-img {
+  display: block;
+  background-image: url("Medical-Nutrition.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: gold;
+  height: 500px;
+}
+
+h1 {
+  display: block;
+  padding: 10px;
+  background-color: skyblue;
+}
+
+.art-head {
+  width: 150px;
+  height: 150px;
+}
+
+p {
+  margin: 20px;
+  padding: 10px;
+}
