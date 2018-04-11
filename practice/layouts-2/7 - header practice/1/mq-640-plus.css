@@ -1,0 +1,38 @@
+body {
+  width: 80%;
+  margin: 0 auto;
+  border: 3px solid black;
+}
+
+
+
+header > ul {
+  text-align: right;
+}
+
+header > ul > li {
+  display: inline-block;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav > div {
+  width: 25%;
+}
+
+nav > ul {
+  display: flex;
+  justify-content: center;
+  width: 83%;
+}
+
+nav > ul > li {
+  width: 20%;
+}
+
+nav > ul > li > a {
+}
