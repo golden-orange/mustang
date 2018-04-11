@@ -1,0 +1,34 @@
+body {
+  width: 800px;
+  margin: 20px auto;
+
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav {
+  display: flex;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+li {
+  display: inline-block;
+  width: 100px;
+  margin-right: 10px;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+}
+
+article {
+  width: 100%;
+}
