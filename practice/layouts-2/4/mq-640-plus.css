@@ -1,0 +1,51 @@
+body {
+  border: 2px solid red;
+  width: 800px;
+  margin: 10px auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 150px;
+}
+
+header > div {
+  width: 20%;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+main {
+  margin-left: 150px;
+}
+
+main > div {
+  width: 100%;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+}
+
+article {
+  display: inline-block;
+  width: 30%;
+  margin: 10px;
+}
+
+aside {
+  width: 150px;
+  position: fixed;
+  top:12px;
+}

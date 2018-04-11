@@ -1,0 +1,33 @@
+html, body, li, a, ul, main > div {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+header > div, li, main > div, article, aside, aside > div, footer {
+  border: 2px solid black;
+  background-color: gold;
+}
+
+a {
+  display: block;
+  padding: 10px;
+}
+
+p {
+  display: block;
+  padding: 20px;
+}
+
+main > div {
+  height: 400px;
+}
+
+footer {
+  height: 100px;
+}
+
+aside > div {
+  height: 200px;
+}
