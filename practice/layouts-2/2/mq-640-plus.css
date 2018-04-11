@@ -1,0 +1,36 @@
+body {
+  margin: 0 auto;
+  width: 80vw;
+}
+
+nav {
+  display: flex;
+}
+
+div:nth-child(1) {
+  width: 20%;
+  min-width: 150px;
+  max-width: 150px;
+  height: 40px;
+}
+
+div {
+  text-align: center;
+}
+
+ul {
+  text-align: right;
+  width: 85%;
+}
+
+li {
+  display: inline-block;
+}
+
+a {
+  display: inline-block;
+}
+
+article {
+  max-width: 35vw ;
+}
