@@ -1,18 +1,72 @@
-html, body, header, nav, ul, li, p, #menu, #menu li, .dropdown_2columns {
-  padding: 0;
-  margin: 0;
-  border: 0;
-  box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
+/*  reset  */
+html, body, div, span, h1, h2, h3, h4, h5, h6, button, p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strong, sub, sup, b, u, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, figure, figcaption, footer, header, nav, output, section, time, mark, audio, video, input, textarea, select {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    /* inherits the browser's font properties: font-size 16px */
+    font: inherit;
+    /*  specifies the vertical alignment of an inline element */
+    vertical-align: baseline;
+
+    box-sizing: border-box;
+
+    /*  specifies the height of line boxes within the element. */
+    line-height: 1;
+
+    border-radius: 0;
+
+    /* no outline around anything */
+    outline: none;
+
+    /* inherit the color value of the parent */
+    color: inherit;
 }
 
-ul {
-  list-style: none;
+ol, ul {
+    /* no bullets in lists */
+    list-style: none;
 }
 
 a {
+    /* no underline */
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+    background-color: transparent;
+}
+
+blockquote, q {
+    /* no quotes */
+    quotes: none;
+}
+
+table {
+    /* no spacing between cells*/
+    border-spacing: 0;
+    /*borders are collapsed - adjacent table cells share borders */
+    border-collapse: collapse;
+}
+
+input, select, progress{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+svg {
+    width: 1.9em;
+    height: 1.9em;
+    fill: currentColor;
+}
+
+/*  end of reset  */
+
+
+
+a {
   display: block;
-  text-decoration: none;
   margin: 15px;
 }
 
@@ -47,10 +101,11 @@ p {
 #menu {
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-weight: 600;
+    font-size: 1.5rem;
     color: darkgray;
     display: flex;
     justify-content: space-around;
-    margin: 10px 0px;
+    margin: 5px 0px;
     list-style:none;
     width:100%;
     height:43px;
@@ -85,23 +140,9 @@ p {
     border-radius: 5px 5px 0px 0px;
 }
 
-#menu li a {
-    font-weight: 600;
-    /* font-size:1rem; */
-    display:block;
-}
-
 #menu li:hover a {
     color:#161616;
-    text-shadow: 1px 1px 1px #FFFFFF;
 }
-/* #menu li .drop {
-    padding-right:21px;
-    background:url("img/drop.png") no-repeat rightright 8px;
-} */
-/* #menu li:hover .drop {
-    background:url("img/drop.png") no-repeat rightright 7px;
-} */
 
 /* Drop Down */
 
@@ -131,12 +172,13 @@ a:visited {
     border-radius: 0px 5px 5px 5px; */
 }
 
-.dropdown_2columns {width: 110vw;}
+.dropdown_2columns {width: 100vw;}
 
 #menu li:hover .dropdown_2columns
 {
-    left:-22px;
+    left:-12px;
     top:auto;
+    width: 100vw;
 }
 
 /* Columns */
@@ -173,7 +215,8 @@ a:visited {
 
 
 #menu h2 {
-    font-size:1rem;
+    font-size:1.25rem;
+    display:block;
     font-weight:600;
     letter-spacing:-1px;
     margin:7px 0 14px 0;

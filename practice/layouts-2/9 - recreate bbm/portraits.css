@@ -1,0 +1,31 @@
+figure, img, figcaption {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+figure {
+  /* display: block; */
+  width: 100vw;
+  height: 500px;
+}
+
+figure img {
+  display: block;
+  width: 100vw;
+  height: 500px;
+}
+
+figcaption {
+  width: 100vw;
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+  font-weight: 300;
+}
+
+/* #port-sec-1 #fig-1 {
+  background-image: url("img/portraits/Musician-Portrait-Photographer-Stephen-James-min1.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+} */
