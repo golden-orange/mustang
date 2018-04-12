@@ -11,14 +11,14 @@ ul {
 }
 
 a {
-  display: block;
   text-decoration: none;
+  display: inline-block;
   margin: 15px;
 }
 
 
 #logo {
-  background-image: url("img/header-kimono-logo-min1.png");
+  background-image: url("9 - recreate bbm/img/header-kimono-logo-min1.png");
   background-repeat: no-repeat;
   background-size: contain;
   height: 68px;
