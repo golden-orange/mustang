@@ -1,4 +1,4 @@
-html, body, ul, li, header, #idx-logo, main, figure, article, footer, h1, h2, h3 {
+html, body, ul, li, header, #idx-logo, main, figure, article, footer, section, h1, h2, h3, footer > section > ul > li {
   padding: 0;
   margin: 0;
   border: 0;
@@ -14,6 +14,7 @@ body {
   border: 3px solid lightgray;
   margin: 10px auto;
 }
+
 header {
   display: flex;
   justify-content: space-between;
@@ -60,12 +61,12 @@ nav > ul > li > a {
 
 /*********** main section start  *********/
 
-section {
+main > section {
   display: flex;
   justify-content:center;
 }
 
-section > figure, article {
+main > section > figure, article {
   width: 50%;
   height: 200px;
   background-color: lightgray;
@@ -111,6 +112,11 @@ h1 {
   background-color: gray;
 }
 
+#idx-sec-3 {
+  display: flex;
+  justify-content: space-around;
+}
+
 #idx-sec-3 > article {
   width: 30%;
   height: 300px;
@@ -137,13 +143,13 @@ footer {
 }
 
 footer > section {
-  width: 20%;
-  border: 2px solid black;
+  width: 21%;
+  margin-top: 20px;
   text-align: center;
 }
 
-h3 {
-  width: 50%;
+footer > section > h3 {
+  width: 100%;
   height: 10px;
   background-color: gray;
   margin-bottom: 30px;
@@ -152,17 +158,11 @@ h3 {
 
 footer > section > ul {
   width: 50%;
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: space-around;
-  align-items: left;
-  list-style: none;
-  margin-top: 30px;
 }
 
 footer > section > ul > li {
-  width: 75%;
-  height: 10px;
+  height: 20px;
+  width: 100%;
   background: gray;
-  margin-top: -30px;
+  margin: 10px 30px;
 }
