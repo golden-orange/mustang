@@ -1,0 +1,135 @@
+html, body, h1, figure, header, h2, p {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+#idx-atf {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(254, 249, 231);
+  border-bottom: 3px dashed gold;
+}
+
+header {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+header > div {
+  width: 20%;
+  border: 2px dotted gray;
+  margin: 20px 0px 0px 20px;
+  text-align: center;
+  padding: 20px;
+}
+
+nav {
+  width: 60%;
+  border: 2px dotted gray;
+  margin: 20px 20px 0px 0px;
+  text-align: center;
+  padding: 20px;
+}
+
+/*  end of navigation   */
+/*  start of primary header content  */
+
+header > figure {
+  width: 95%;
+  height: 500px;
+  margin: 20px auto;
+  border: 2px dotted gray;
+  text-align: right;
+  padding: 50px, 50px;
+}
+
+h1 {
+  width: 290px;
+  text-align: center;
+  padding: 25px;
+  margin: 80px 0px 0px 40px;
+  border: 1px dotted black;
+  font-weight: normal;
+}
+
+figure > p {
+  width: 240px;
+  text-align: center;
+  padding: 25px;
+  margin: 40px 0px 0px 40px;
+  border: 1px dotted black;
+}
+
+header > h2 {
+  width: 95%;
+  margin: 0 auto;
+  border: 2px dotted black;
+  padding: 40px;
+  text-align: center;
+  font-weight: lighter;
+}
+
+/*  end of primary content    */
+/*  end of above the fold     */
+
+/*  start of secondary content */
+
+#secondary {
+  background-color: rgb(234, 250, 241);
+  border-bottom: 4px dashed green;
+}
+
+#benefits-list, #featured-highlights, #trust-indicators, #social-proofs {
+  width: 95%;
+  margin: 10px auto;
+  border: 2px dotted gray;
+  padding: 40px;
+  text-align: center;
+}
+
+/*  end of secondary section  */
+/*  start of asides           */
+
+#asides {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+#useful-content {
+  width: 30%;
+  margin-top: 20px;
+  padding-top: 40px;
+  text-align: center;
+  border: 1px dotted gray;
+}
+
+#company-updates {
+  width: 30%;
+  margin-top: 20px;
+  padding-top: 40px;
+  text-align: center;
+  border: 1px dotted gray;
+
+}
+
+#offers {
+  width: 30%;
+  margin-top: 20px;
+  padding-top: 40px;
+  text-align: center;
+  border: 1px dotted gray;
+
+}
+
+#asides h3 {
+  text-decoration: underline;
+}
+
+#useful-content > p {
+  width: 100px;
+  text-align: center;
+}
