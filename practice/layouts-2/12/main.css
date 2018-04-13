@@ -1,0 +1,137 @@
+html, body div, nav, ul, li, aside, figure {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background: black;
+  padding: 20px;
+}
+
+#idx-logo {
+  width: 10%;
+  background: gray;
+  border: 1px solid gray;
+  border-radius: 100%;
+}
+
+nav {
+  width: 50%;
+  height: 50px;
+}
+
+nav > ul {
+  list-style: none;
+  height: 100%;
+  text-align: right;
+}
+
+nav > ul > li {
+  width: 25%;
+  height: 40px;
+  margin-left: 10px;
+  background: gray;
+  padding: 10px;
+  display: inline-block;
+}
+
+/*  end of header  */
+/*  start of main  */
+
+#idx-main-hdr {
+  height: 100px;
+  font-size: 3rem;
+  background-color: gray;
+  padding: 100px 130px;
+  color: whitesmoke;
+}
+
+/*   start of article   */
+
+article {
+  width: 80%;
+  margin: 0 auto;
+}
+
+h2 {
+  width: 100%;
+  height: 20px;
+  background-color: gray;
+  border-radius: 5px;
+}
+
+h3 {
+  width: 100%;
+  height: 12px;
+  background-color: gray;
+  border-radius: 5px;
+}
+
+#idx-main-sctn ul {
+  list-style: none;
+  height: 35px;
+}
+
+#idx-main-sctn ul li {
+  height: 5px;
+  background-color: lightgray;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+#float {
+  width: 300px;
+  height: 100px;
+  background-color: rgba(255, 255, 128, .5);
+  float: right;
+}
+
+aside {
+  width: 80vw;
+  margin: 10px auto;
+}
+
+#asd-sec {
+  display: flex;
+  justify-content: space-around;
+}
+
+#asd-sec > figure {
+  width: 30%;
+  height: 100px;
+  background-color: lightgray;
+}
+
+#asd-art > h2 {
+  width: 100%;
+  height: 10px;
+  background-color: gray;
+}
+
+#asd-art > ul {
+  list-style: none;
+}
+
+#asd-art > ul > li {
+  margin-top: 5px;
+  background-color: lightgray;
+  width: 100%;
+  height: 5px;
+}
+
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: lightgray;
+  padding: 10px;
+}
+
+footer > p {
+  font-size: 0.75rem;
+  margin-top: 10px;
+  padding: 0px 10px
+}
