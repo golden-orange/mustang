@@ -1,0 +1,183 @@
+html, body, div, #idx-hdr-hero-image, ul {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+#idx-atf {
+  height: 100vh;
+  border-bottom: 3px dashed gold;
+  background-color: rgb(254, 249, 231);
+}
+
+#idx-hdr-hero-image {
+  position:relative;
+  margin: 10px;
+  border: 2px dotted gray;
+  height: 90vh;
+}
+
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 10px;
+}
+
+#idx-logo {
+  border: 2px dotted gray;
+  width: 25%;
+  padding: 15px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+nav > ul {
+  width: 75%;
+  padding: 15px;
+  border: 2px dotted gray;
+  text-align: center;
+}
+
+#idx-hdr-headings {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-end;
+  align-items: center;
+  position:absolute;
+  bottom:5px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#idx-hdr-hero-image > p {
+  text-align: center;
+  margin: 100px 0px;
+}
+
+#idx-headline {
+  border: 2px dotted gray;
+  margin-bottom: 10px;
+  padding: 10px 200px;
+}
+
+#idx-subheadline {
+  border: 2px dotted gray;
+  margin-bottom: 10px;
+  padding: 10px 200px;
+}
+
+#idx-hdr-p {
+  border: 2px dotted gray;
+  margin-bottom: 10px;
+  padding: 10px 200px;
+}
+
+/*  end of header above the fold  */
+/*  start of secondary section  */
+
+#idx-secondary-sec {
+  background-color: rgb(254, 249, 231);
+  border-bottom: 3px dashed green;
+}
+
+#benefits-statement {
+  border: 2px dotted gray;
+  margin: 5px 10px;
+  text-align: center;
+  padding: 10px;
+
+}
+
+#portfolio-sec-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  border: 2px dotted black;
+  padding: 5px;
+  margin: 5px 10px;
+
+}
+
+#portfolio-sec-1 {
+  width: 29%;
+  border: 2px dotted gray;
+  padding: 15px;
+  text-align: center;
+}
+
+#portfolio-sec-2 {
+  width: 29%;
+  border: 2px dotted gray;
+  padding: 15px;
+  text-align: center;
+}
+
+#portfolio-sec-3 {
+  width: 29%;
+  border: 2px dotted gray;
+  padding: 15px;
+  text-align: center;
+}
+
+#trust-indicators {
+  border: 2px dotted gray;
+  margin: 5px 10px;
+  text-align: center;
+  padding: 10px;
+}
+
+#social-proofs {
+  border: 2px dotted gray;
+  margin: 5px 10px;
+  text-align: center;
+  padding: 10px;
+}
+
+/* <!-- end of secondary content section   -->
+<!-- start of additional content section  --> */
+
+#idx-add-sec {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  background-color: rgb(234, 236, 238);
+  border-bottom: 3px dashed darkgray;
+}
+
+#useful-content {
+  width: 30%;
+  border: 2px dotted gray;
+  text-align: center;
+  margin: 20px 10px 20px;
+  padding-top: 30px;
+  height: 300px;
+}
+
+#company-updates {
+  width: 30%;
+  border: 2px dotted gray;
+  text-align: center;
+  margin: 20px 10px 20px;
+  padding-top: 30px;
+  height: 300px;
+}
+
+#offers {
+  width: 30%;
+  border: 2px dotted gray;
+  text-align: center;
+  margin: 20px 10px 20px;
+  padding-top: 30px;
+  height: 300px;
+}
+
+#idx-add-sec > section > ul {
+  list-style: none;
+  margin-top: 20px;
+}
+
+#idx-add-sec > section > h3 {
+  text-decoration: underline;
+}
