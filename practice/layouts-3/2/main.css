@@ -1,4 +1,4 @@
-html, body, header, section, h1, h2, h3, h6, main, aside, ul, li, a, span {
+html, body, div, header, section, h1, h2, h3, h6, p, main, aside, nav, ul, li, a, span {
   margin: 0;
   padding: 0;
   border: 0;
@@ -56,9 +56,6 @@ ul {
   padding-top: 10px;
 }
 
-#headings > h1 {
-
-}
 
 #headings > h2 {
   text-align: center;
@@ -69,7 +66,7 @@ ul {
 #blog-hdr-title > div {
   position: absolute;
   top: 50px;
-  right: 150px;
+  right: 120px;
   width: auto;
   padding: 10px;
   background-color: darkred;
@@ -82,45 +79,49 @@ ul {
 /*  end of header  */
 /*  start of main  */
 
-main {
-  margin: 10px 25px 30px 25px;
-  width: 70%;
-}
-
 #h2-latest-posts {
   background-color: black;
   color: white;
   padding: 25px 0px 25px 70px;
 }
 
+main {
+  margin: 0px 0px 40px 40px;
+  width: 70%;
+}
+
+
 /*  start of posts  */
 
 .blog-post-sec {
   width: 100%;
-  margin: 10px;
   position: relative;
 
 }
 
 .blog-post-sec > header {
-  padding: 20px 0px 10px 30px;
+  width: 50%;
+  margin: 25px 0px 0px 35px;
 }
 
 .post-captions {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
+  font-size: xx-small;
 }
 
 .post-captions figcaption {
-  margin: 40px 20px 0px 10px;
+  width: 50%;
+  /* margin: 40px 20px 0px 10px; */
 }
 
 .post-captions .post-date {
-  margin: 40px 0px 0px 60px;
+  width: 50%;
+  /* margin: 40px 0px 0px 60px; */
 }
 
 figure {
-  width: 300px;
+  width: 400px;
   height: 300px;
   background-color: gold;
   border: 2px solid black;
@@ -128,37 +129,19 @@ figure {
 
 }
 
+
 .blog-post-sec > p {
-  width: 500px;
+  padding: 10px 5px;
+  margin-left: 30px;
+  width: 75%;
+}
+
+.blog-img-insert {
+  width: 400px;
   height: 300px;
-  display: inline-block;
-  vertical-align: top;
-}
-
-.blog-post-sec > a {
-  position: absolute;
-  bottom: 30px;
-  right: 150px;
-  padding: 3px 10px;
+  float: right;
+  background-color: gold;
   border: 2px solid black;
-  box-shadow: 2px 2px 1px black;
-  text-decoration: none;
-}
-
-#older-posts {
-  text-align: center;
-  margin: 20px 0px 50px;
-}
-
-#older-posts > a {
-  text-decoration: none;
-  padding: 15px;
-  border: 2px solid black;
-  box-shadow: 1px 1px 1px black;
-}
-
-#older-posts > a > span {
-  font-size: xx-large;
 }
 
 /*  end of posts  */
@@ -166,8 +149,7 @@ figure {
 
 aside {
   width: 100%;
-  padding-top: 40px;
-  padding-left: 70px;
+  padding: 40px 0px 50px 70px;
   position: relative;
 }
 
@@ -192,12 +174,114 @@ aside > div > a {
 }
 
 /*  end of aside  */
+/*  start of B2B Call to Action  */
+
+.call-to-action {
+  position: relative;
+  width: 100%;
+  border: 3px solid black;
+  margin: 50px 0px 50px;
+}
+
+.call-to-action > h2 {
+  background-color: lightgray;
+  text-align: center;
+  padding: 10px;
+  border-bottom: 3px solid black;
+}
+
+#c2a-label {
+  display: inline-block;
+  width: 200px;
+  margin: 15px 0px 0px 30px;
+  vertical-align: top;
+}
+
+
+.submit {
+  display: inline-block;
+  width: 400px;
+  height: 200px;
+  font-weight: 700;
+  margin: 10px 0px 60px 30px;
+  line-height: 40px;
+}
+
+.call-to-action > a {
+  position: absolute;
+  bottom: 0px;
+  right: 70px;
+  width: auto;
+  padding: 10px;
+  border: 3px solid black;
+  background-color: darkred;
+  text-align: right;
+  text-decoration: none;
+  color: white;
+}
+
+
+/*  end of B2B Call to Action  */
+
+/*  start of About Author  */
+
+.blog-about-author {
+  border: 3px solid black;
+  padding: 10px;
+}
+
+.blog-about-author > h3 {
+  display: inline-block;
+  width: 200px;
+  vertical-align: top;
+}
+
+.blog-about-author > nav {
+   display: inline-block;
+   width: 400px;
+   text-align: right;
+}
+
+.blog-about-author > nav > ul > li {
+  display: inline-block;
+}
+
+.blog-about-author > p {
+  padding: 10px;
+  margin-top: 10px;
+}
+
+
+/*  end of About Author  */
+
+/*  start of Previous - Next links  */
+
+.previous-next {
+  width: 100%;
+}
+
+.previous-post {
+  display: inline-block;
+  width: 400px;
+}
+
+.next-post {
+  display: inline-block;
+  width: 460px;
+  text-align: right;
+}
+
+
+/*  end of Previous - Next links  */
+
+
+
 /*  start of sidebars   */
 
 #blog-sidebar {
   width: 25%;
   position: absolute;
-  top: 410px;
+  top: 210px;
   right: 20px;
 }
 
@@ -248,6 +332,7 @@ aside > div > a {
 /*   start of footer   */
 
 footer {
+  width: 100%;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
