@@ -1,0 +1,266 @@
+html, body, header, section, h1, h2, h3, h6, main, aside, ul, li, a, span {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+#blog-hdr {
+  border: 3px solid black;
+}
+
+#blog-hdr-logo-soc {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  height: 100px;
+  background-color: lightgray;
+}
+
+#blog-hdr-logo {
+  width: 70%;
+  height: 55px;
+  text-transform: uppercase;
+  background-color: inherit;
+  padding: 10px;
+  margin-left: 40px;
+}
+
+#blog-hdr-soc-med {
+  width: 75%;
+  height: 75px;
+  background-color: inherit;
+  font-size: 12px;
+  font-weight: 700;
+  text-align: right;
+  margin-right: 40px;
+}
+
+#blog-hdr-title {
+  position: relative;
+  height: 75px;
+  background-color: gray;
+}
+
+#blog-hdr-title #headings {
+  width: 100%;
+  text-align: center;
+}
+
+#headings {
+  color: white;
+  padding-top: 10px;
+}
+
+#headings > h1 {
+
+}
+
+#headings > h2 {
+  text-align: center;
+  font-size: 12px;
+  font-weight: lighter;
+}
+
+#blog-hdr-title > div {
+  position: absolute;
+  top: 50px;
+  right: 150px;
+  width: auto;
+  padding: 10px;
+  background-color: darkred;
+  border: 1px solid black;
+  color: white;
+  text-align: center;
+  margin: 10px, 0px, 10px;
+}
+
+/*  end of header  */
+/*  start of main  */
+
+main {
+  margin: 10px 25px 30px 25px;
+  width: 70%;
+}
+
+#h2-latest-posts {
+  background-color: black;
+  color: white;
+  padding: 25px 0px 25px 70px;
+}
+
+/*  start of posts  */
+
+.blog-post-sec {
+  width: 100%;
+  margin: 10px;
+  position: relative;
+
+}
+
+.blog-post-sec > header {
+  padding: 20px 0px 10px 30px;
+}
+
+.post-captions {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.post-captions figcaption {
+  margin: 40px 20px 0px 10px;
+}
+
+.post-captions .post-date {
+  margin: 40px 0px 0px 60px;
+}
+
+figure {
+  width: 300px;
+  height: 300px;
+  background-color: gold;
+  border: 2px solid black;
+  display: inline-block;
+
+}
+
+.blog-post-sec > p {
+  width: 500px;
+  height: 300px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.blog-post-sec > a {
+  position: absolute;
+  bottom: 30px;
+  right: 150px;
+  padding: 3px 10px;
+  border: 2px solid black;
+  box-shadow: 2px 2px 1px black;
+  text-decoration: none;
+}
+
+#older-posts {
+  text-align: center;
+  margin: 20px 0px 50px;
+}
+
+#older-posts > a {
+  text-decoration: none;
+  padding: 15px;
+  border: 2px solid black;
+  box-shadow: 1px 1px 1px black;
+}
+
+#older-posts > a > span {
+  font-size: xx-large;
+}
+
+/*  end of posts  */
+/*  start of aside  */
+
+aside {
+  width: 100%;
+  padding-top: 40px;
+  padding-left: 70px;
+  position: relative;
+}
+
+aside h3 {
+  font-size: 1.7rem;
+}
+
+aside p {
+  font-size: 14px;
+}
+
+aside > div > a {
+  text-decoration: none;
+  background-color: darkred;
+  padding: 10px;
+  text-align: center;
+  border: 3px solid black;
+  position: absolute;
+  top: 50px;
+  right: 150px;
+  color: white;
+}
+
+/*  end of aside  */
+/*  start of sidebars   */
+
+#blog-sidebar {
+  width: 25%;
+  position: absolute;
+  top: 410px;
+  right: 20px;
+}
+
+#blog-sidebar-archives {
+  width: 100%;
+  border: 3px solid black;
+  border-radius: 10px;
+  background-color: gray;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+#blog-sidebar-archives ul {
+  margin-bottom: 20px;
+}
+
+#blog-sidebar-archives a {
+  text-decoration: none;
+}
+
+
+#blog-sidebar-signup-ebook {
+  width: 100%;
+  border: 3px solid black;
+  border-radius: 10px;
+  background-color: gray;
+  padding: 10px 20px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.sidebar-signup-button {
+  width: 100px;
+  padding: 10px;
+  background-color: darkred;
+  border: 1px solid black;
+  color: white;
+}
+
+#blog-sidebar-signup-ebook figure {
+  width: 125px;
+  height: 125px;
+  background-color: gold;
+  border: 3px solid black;
+}
+
+/*   end of sidebar   */
+/*   start of footer   */
+
+footer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  background-color: gray;
+  border: 2px solid black;
+  padding: 30px;
+}
+
+footer section {
+  width: 20%;
+}
+
+#blog-footer-ribbon {
+  text-align: right;
+  height: 20px;
+}
