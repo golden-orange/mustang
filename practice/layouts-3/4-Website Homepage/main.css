@@ -1,0 +1,257 @@
+html, body, section, main, footer, div, h1, figure, a, ul, li, a {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+/*  start of header   */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid black;
+  background-color: lightgray;
+}
+
+.hdr-logo {
+  width: 25%;
+  margin-left: 40px;
+  padding: 20px;
+}
+
+header > nav {
+  width: 75%;
+}
+
+nav > ul {
+  margin: 20px 40px;
+  text-align: center;
+}
+
+nav > ul > li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav > ul > li:nth-child(4) > a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: blue;
+  border: 2px solid black;
+  box-shadow: 1px 1px 1px black;
+}
+
+nav > ul > li:last-child > a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: darkred;
+  border: 2px solid black;
+  box-shadow: 1px 1px 1px black;
+}
+
+/*  end of header  */
+
+/*  start of main ---  hero section  */
+
+main {
+  width: 90%;
+  margin: 10px auto;
+}
+
+#idx-hero {
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color: gray;
+}
+
+#idx-hero-top {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.fig-hero {
+  width: 35%;
+  border: 1px solid black;
+  background-color: gold;
+  height: 300px;
+  margin: 30px;
+}
+
+#cta-hero {
+  width: 65%;
+  text-align: center;
+  margin: 30px;
+  padding-top: 20px;
+}
+
+#cta-hero h1 {
+  font-size: 2.5rem;
+  font-family: cursive;
+  margin-bottom: 20px;
+}
+
+#cta-hero > ul > li:nth-child(2) {
+  margin-bottom: 20px;
+}
+
+#cta-hero > ul > li:nth-child(2) > a {
+  border: 2px solid black;
+  box-shadow: 1px 1px 1px black;
+  background-color: green;
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-family: cursive;
+}
+
+#idx-hero-bottom {
+  background-color: black;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#idx-hero-bottom > h2 {
+  color: white;
+  text-align: left;
+  padding: 20px 0px 0px 20px;
+}
+
+#idx-hero-bottom > article {
+  display: inline-block;
+  margin: 0px 5px 30px 5px;
+  width: 300px;
+  background-color: lightgray;
+  text-align: left;
+  padding: 5px;
+}
+
+#idx-hero-bottom > :nth-child(2) {
+  margin-left: 10px;
+}
+
+/*  start of primary content  */
+
+#idx-primary-content {
+  margin-top: 30px;
+  text-align: center;
+}
+
+#idx-primary-content > h1 {
+  text-align: left;
+  margin: 20px 0px 20px 10px;
+}
+
+#idx-primary-content article {
+  display: inline-block;
+  position:relative;
+  width:25%;
+  margin: 0px 25px 0px 0px;
+  border: 2px solid black;
+  border-radius: 15px;
+  background-color: lightgray;
+  text-align: left;
+  padding: 20px;
+}
+
+.art-deco {
+  position:absolute;
+  top: -15px;
+  right: -15px;
+  border: 2px solid red;
+  width: 50px;
+  height: 50px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.art-deco > span {
+  font-size: 5rem;
+  line-height: 40px;
+  color: red;
+  vertical-align: top;
+}
+
+#idx-primary-sub {
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+#idx-primary-sub > p {
+  width: 90%;
+  margin-left: 20px;
+}
+
+/*  end of main  */
+/*  start of footer  */
+
+.footer-main {
+  background-color: gray;
+  border: 2px solid black;
+  display: flex;
+  flex-flow: row nowrap;
+  text-align: center;
+}
+
+#footer-logo {
+  width: 25%;
+  margin: 0px 0px 30px 60px;
+}
+
+#footer-logo > figure {
+  width: 200px;
+  height: 125px;
+  background-color: gold;
+  border: 8px dashed black;
+  margin: 0px 0px 30px 60px;
+}
+
+#footer-links {
+  width: 75%;
+}
+
+#footer-links > section {
+  width: 30%;
+  display: inline-block;
+}
+
+.footer-ribbon {
+  background-color: black;
+  text-align: center;
+}
+
+.footer-ribbon-logo {
+  display: inline-block;
+  width: 300px;
+  color: white;
+  text-align:center;
+}
+
+.footer-ribbon-logo > figure {
+  width: 300px;
+  height: 125px;
+  border: 8px dashed gold;
+  color: white;
+}
+
+.footer-ribbon > ul {
+  display: inline-block;
+  margin-left: 40px;
+  width: 700px;
+}
+
+.footer-ribbon > ul > li {
+  display: inline-block;
+  padding-right: 20px;
+}
+
+.footer-ribbon a {
+  color: aqua;
+
+}
