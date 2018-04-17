@@ -1,0 +1,182 @@
+html, body, ul, figure {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+.links-over-header {
+  background-color: gray;
+  text-align: right;
+}
+
+.links-over-header > ul > li:last-child {
+  margin-right: 70px;
+}
+
+.links-over-header > ul > li {
+  display: inline-block;
+  padding: 3px;
+}
+
+header {
+  background-color: lightgray;
+  border: 2px solid black;
+  display: flex;
+  justify-content: space-around;
+  height: 100px;
+}
+
+.hdr-logo {
+  width: 25%;
+  padding: 20px;
+  margin-left: 40px;
+  font-size: 40px;
+}
+
+nav {
+  width: 75%;
+}
+
+nav > ul > li {
+  display: inline-block;
+  width: auto;
+}
+
+nav > ul {
+  text-align: right;
+  padding: 30px;
+}
+
+nav > ul > li {
+  margin-right: 20px;
+}
+
+nav > ul > li:nth-child(4) {
+  background-color: cyan;
+  border: 3px solid black;
+  color: white;
+  padding: 5px 20px;
+  margin-right: 10px;
+  box-shadow: 2px 2px 1px black;
+}
+
+nav > ul > li:nth-child(4) > a {
+  color:white;
+  padding: 15px 20px;
+  text-decoration: none;
+}
+
+nav > ul > li:last-child {
+  background-color: green;
+  border: 3px solid black;
+  padding: 5px 15px;
+  margin-right: 40px;
+  box-shadow: 2px 2px 1px black;
+}
+
+nav > ul > li:last-child > a {
+  color:white;
+  padding: 5px 20px;
+  text-decoration: none;
+}
+
+/*  end of header and navigation  */
+/*  start of breadcrumbs  */
+
+.breadcrumbs {
+  background-color: lightgray;
+  border: 2px solid black;
+  margin: 20px auto;
+  width: 90%;
+  border-radius: 100px;
+}
+
+.breadcrumbs > ul > li {
+  display: inline-block;
+  width: auto;
+  padding: 10px 2px;
+}
+
+.breadcrumbs > ul > li:first-child {
+  margin-left: 10px;
+}
+
+/*   end of breadcrumbs   */
+/*   start of main   */
+
+main {
+  width: 90%;
+  margin: 10px auto;
+}
+
+/*  end of main   */
+/*  start of footer  */
+
+.footer-main {
+  display: flex;
+  justify-content: space-around;
+  background-color: gray;
+  border: 2px solid black;
+}
+
+.footer-main > section {
+  width: 20%;
+  margin: 10px;
+}
+
+.footer-main > section:first-child > figure {
+  width: 180px;
+  height: 200px;
+  background-color: gold;
+  border: 2px dashed black;
+  margin-right: 30px;
+}
+
+.footer > section > ul {
+  height: 200px;
+}
+
+.footer > section > ul > li {
+  padding-bottom: 10px;
+  line-height: 15px;
+}
+
+.footer-ribbon {
+  background-color: black;
+}
+
+.footer-logo {
+  display: inline-block;
+  width: 300px;
+  height: 150px;
+  border: 3px solid gold;
+  color: white;
+  vertical-align: top;
+}
+
+.footer-ribbon > ul {
+  display: inline-block;
+  width: 500px;
+  margin: 120px 0px 0px 100px;
+}
+
+.footer-ribbon > ul > li {
+  display: inline-block;
+  width: auto;
+  text-align: center;
+}
+
+.footer-ribbon > ul > li > a {
+  text-decoration: none;
+  color: aqua;
+  margin-left: 20px;
+}
+
+.footer-ribbon > ul > li > span {
+  color: aqua;
+}
