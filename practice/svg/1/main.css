@@ -1,0 +1,30 @@
+html, body, div, svg {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  border: 3px solid orange;
+  width: 80%;
+  margin: 0 auto;
+}
+
+div {
+  display: inline-block;
+  width: 200px;
+  border: 9px dotted silver;
+  padding: 100px;
+  vertical-align: top;
+}
+
+svg {
+  display: inline-block;
+  width: 400px;
+}
+
+.red-rabbit:hover {
+  fill: aqua;
+  color: aqua;
+}

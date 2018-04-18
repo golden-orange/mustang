@@ -1,0 +1,257 @@
+html, body, figure, h1, h2, ul {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+header {
+  background-color: gray;
+}
+
+.facebook-logo {
+  display: inline-block;
+  width: 300px;
+  color:white;
+  font-size: 2rem;
+  font-family: cursive;
+  text-transform: uppercase;
+  padding: 20px 0px 20px 40px;
+}
+
+header > nav {
+  display: inline-block;
+  width: 850px;
+}
+
+header > nav > ul {
+  margin-left: 5px;
+}
+header > nav > ul > li {
+  display: inline-block;
+  font-family: cursive;
+  color:white;
+}
+
+header > nav > ul > li:nth-child(4) {
+  margin-right: 500px;
+}
+
+/*  end of header navigation  */
+
+/*  start of profile figure and profile name   */
+
+.fig-profile {
+  height: 300px;
+  background-color: lightgray;
+  border: 2px solid black;
+}
+
+#profile-name {
+  position:relative;
+  top: -100px;
+  font-family: cursive;
+  font-size: 1rem;
+}
+
+#profile-name > figure {
+  width: 200px;
+  height: 200px;
+  background-color: gold;
+  border: 11px dashed black;
+  position:absolute;
+  top: 10px;
+  left: 20px;
+}
+
+#profile-name > h1 {
+  display: inline-block;
+  width: 350px;
+  margin-left: 250px;
+  vertical-align: top;
+}
+
+#profile-name > nav > ul:first-child {
+  display: inline-block;
+  width: 500px;
+  text-align: left;
+  margin: 75px 0px 0px 250px;
+}
+
+#profile-name > nav > ul:nth-child(2) {
+  display: inline-block;
+  text-align: right;
+  width: 400px;
+
+}
+
+#profile-name > nav > ul:nth-child(2) > li:first-child > a {
+  border: 2px solid black;
+  box-shadow: 1px 1px 1px black;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-family: cursive;
+}
+
+#profile-name > nav > ul:nth-child(2) > li:last-child > a {
+  border: 2px solid black;
+  box-shadow: 1px 1px 1px black;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-family: cursive;
+}
+
+#profile-name > nav > ul > li {
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+#profile-name > nav > ul > li > a {
+  text-decoration: none;
+  font-family: cursive;
+}
+
+/*   end of profile name  */
+/*   start of main   */
+/*   start of left side  */
+
+main {
+  width: 98%;
+  margin: 0 auto;
+}
+
+#personal-info {
+  display: inline-block;
+  width: 500px;
+  vertical-align: top;
+}
+
+#info {
+  border: 2px solid black;
+}
+
+#info > table > td {
+  width: 100px;
+  height: 20px;
+  border: 2px solid black;
+  background-color: pink;
+}
+
+.info-cat {
+  border: 2px solid black;
+  margin: 10px;
+  font-family: cursive;
+}
+
+.fig-info-data {
+  width: 150px;
+  height: 150px;
+  background-color: pink;
+  border: 9px dashed black;
+  display: inline-block;
+}
+
+/*   end of left side  */
+/*   start of right side  */
+
+#update-activity {
+  display: inline-block;
+  width: 600px;
+  margin: 20px;
+}
+
+.status-update {
+  border: 2px solid black;
+  margin: 5px;
+  height: 175px;
+}
+
+.update-post-window {
+  border: 2px solid black;
+  margin: 10px;
+  height: 210px;
+
+}
+
+.update-post-window > h3, p {
+  display: inline-block;
+}
+
+.icon {
+  display: inline-block;
+}
+
+.icons-update-select > li {
+  display: inline-block;
+}
+
+.update-window {
+  height: 100px;
+  border: 2px solid black;
+  margin: 5px;
+}
+
+.post-bar-left {
+  display: inline-block;
+  width: 300px;
+  margin-left: 20px;
+}
+
+.post-bar-right {
+  display: inline-block;
+  width: 200px;
+  text-align: right;
+  vertical-align: top;
+}
+
+.post-bar-left > li {
+  display: inline-block;
+}
+
+.post-bar-right > li {
+  display: inline;
+}
+
+.post-bar-right > li:last-child {
+  background-color: gray;
+  box-shadow: 2px 2px 1px black;
+  padding: 5px 10px;
+}
+
+
+.post-bar-right > li:last-child > a {
+  color:white;
+  text-decoration: none;
+  font-family: cursive;
+  padding: 5px 10px 5px;
+}
+
+.update-window-topbar-right {
+  display: inline-block;
+  margin-left: 170px;
+}
+
+.update-window-topbar-right > li {
+  display: inline-block;
+  width: auto;
+}
+
+/*  end of update activity  */
+/*  end of main  */
+
+/*  start of footer  */
+footer {
+  height: 75px;
+  background-color: gray;
+  border: 2px solid black;
+}
+
+/*  end of footer  */
