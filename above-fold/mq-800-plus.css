@@ -2,15 +2,49 @@
   border: 1px solid hotpink;
 } */
 
-html, body, h1, h2, h3, button {
+html, body, nav, ul, li, div, figure, h1, h2, h3, button {
   padding: 0;
   margin: 0;
   border: 0;
   box-sizing: border-box;
-  font-size: 16px;
+  font-size: 1rem;
   font-family: 'Cantarell', sans-serif;
 }
 
+ul {
+  list-style: none;
+}
+
+nav {
+  height: 2.7rem;
+  background-color: rgba(10, 0, 0, 0.6);
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  top:0;
+  width: 100vw;
+}
+
+#idx-navbar-left {
+  background-color: red;
+  width: 25%;
+  height: 2rem;
+  margin: 5px;
+}
+
+#idx-navbar-right {
+  background-color: red;
+  width: 25%;
+  height: 2rem;
+  margin: 5px;
+  text-align: right;
+}
+
+.fa fa-gear {
+  width: 30px;
+  height: 30px;
+  border: 1px solid hotpink;
+}
 
 .idx-atf {
   /* default display setting is block which takes entire row width */
@@ -37,26 +71,28 @@ h1, h2, h3 {
   text-align: center;
 }
 h1 {
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 h2 {
-  font-weight: bolder;
+  font-weight: 700;
 }
 
 h1, h3 {
   margin-bottom: 50px;
+  font-weight: 700;
 }
 
 h2, h3 {
-  font-size: 0.75rem;
+  font-size: 1.5rem;
 }
 
 button {
-  padding: 5px;
-  color: white;
-  border: 1px solid white;
+  padding: 25px;
+  color: rgb(130, 224, 170);
+  border: 1px solid rgb(130, 224, 170, 0.9);
   background-color: transparent;
   border-radius: 5px;
   text-align: center;
+  font-size: 2rem;
 }

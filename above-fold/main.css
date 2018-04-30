@@ -14,6 +14,25 @@ header {
   padding-top: 15%;
 }
 
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+#idx-navbar-left {
+  width: 25%;
+}
+
+#idx-navbar-right {
+  width: 25%;
+}
+
+.c1 {
+  width: 50px;
+  height: 50px;
+  border: 1px solid white;
+}
+
 main {
   display: flex;
   flex-flow: column nowrap;

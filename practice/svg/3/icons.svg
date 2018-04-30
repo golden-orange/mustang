@@ -1,0 +1,15 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+	<symbol id="circle" viewBox="0 0 100 100">
+    <path
+       transform="scale(1.0207117,0.97970853)"
+
+       y="299.39331"
+       x="1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.28154945px;line-height:1.25;font-family:'Font Awesome 5 Free';-inkscape-font-specification:'Font Awesome 5 Free';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         style="stroke-width:1"
+         y="299.39331"
+         x="1"
+         id="circle">dot-circle</tspan></path>
+	</symbol>
+</svg>
