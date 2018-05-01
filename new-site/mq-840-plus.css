@@ -7,7 +7,8 @@ html, body, #idx-atf-wrapper, header, nav, ul, main, div, #idx-headshots-box, #i
 
 #idx-atf-wrapper {
   height: 100vh;
-  margin:10px 0px;
+  width: 90%;
+  margin:10px auto;
 }
 
 ul {
@@ -21,7 +22,8 @@ a {
 .admin-nav {
   display: flex;
   justify-content: flex-end;
-  height: 30px;
+  height: 20px;
+  margin-top: 10px;
 }
 
 .admin-nav > ul {
@@ -68,7 +70,7 @@ nav > ul > li {
 }
 
 nav > ul > li > a {
-  font-size: 38px;
+  font-size: 30px;
   text-decoration: none;
 }
 
@@ -82,14 +84,18 @@ nav > ul > li > a {
 
 main {
   display: flex;
-  margin: 50px 30px;
+  width: 95%;
+  margin: 50px auto;
   position: relative;
 }
 
 
 #idx-headshots-wrapper, #idx-workshops-wrapper {
   width: 50%;
-  border: 14px solid blue;
+  border: 14px solid pink;
+  border-radius: 10%;
+
+  margin: 20px;
   height: 600px;
   position: relative;
 
@@ -100,6 +106,7 @@ main {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
 }
 
 #idx-workshops-wrapper {
@@ -110,24 +117,16 @@ main {
   background-size: cover;
 }
 
-#idx-headshots-hdr {
+#idx-headshots-hdr, #idx-workshops-hdr {
   position: absolute;
-  top: -30px;
-  padding: 20px;
-  border: 4px solid pink;
+  top: -70px;
+  left: -30px;
+  padding: 50px;
+  border: 14px solid pink;
   border-radius: 10%;
   background-color: hotpink;
 }
 
-
-#idx-workshops-hdr {
-  position: absolute;
-  top: -30px;
-  padding: 20px;
-  border: 4px solid pink;
-  border-radius: 10%;
-  background-color: hotpink;
-}
 
 #idx-headshots-copy {
   position: absolute;

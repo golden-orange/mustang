@@ -1,0 +1,128 @@
+html, body, div, section, ul, li, h2, p, span {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+#wrapper {
+  display: flex;
+  justify-content: center;
+  width: 80vw;
+}
+
+#sec-cta-standard, #sec-cta-business, #sec-cta-advanced {
+  width: 33%;
+  margin: 10px;
+}
+
+#wrapper > section > header, p {
+  text-align: center;
+}
+
+header {
+  height: 75px;
+  padding: 30px 0px 0px;
+  margin-top: 20px;
+  margin-bottom: 2px;
+  background-color: darkgray;
+  border-bottom: 1px solid gray;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  color: white;
+  /* background: linear-gradient(darkgray, gray, green, orange); */
+}
+
+header > h2 {
+  font-size: 2.5rem;
+}
+
+header > p {
+  font-size: 16px;
+
+}
+
+.price-per {
+  padding: 15px 0px;
+  background-color: white;
+  margin-top: 2px;
+  font-size: 24px;
+  font-weight: 600;
+  border-top: 2px solid lightgray;
+  border-bottom: 4px solid lightgray;
+  text-align: center;
+  background-image: linear-gradient(lightgray, white 15%, white 85%, lightgray);
+}
+
+.price, .per  {
+  display: inline-block;
+}
+
+.price {
+  font-size: 4rem;
+}
+
+.per {
+  vertical-align: top;
+}
+
+section > p:nth-child(2) {
+  padding: 15px 0px;
+  background-color: white;
+  margin-top: 2px;
+  font-size: 24px;
+  font-weight: 600;
+  border-top: 2px solid lightgray;
+  border-bottom: 4px solid lightgray;
+}
+
+section > p:nth-child(3) {
+  text-align: left;
+  min-height: 100px;
+  padding: 20px 10px;
+}
+
+ul {
+  width: 95%;
+  min-height: 180px;
+  padding-bottom: 20px;
+  margin: 5px auto;
+  list-style: disc;
+  list-style-position: inside;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+li {
+  padding: 5px;
+  text-indent: 5px;
+}
+
+section > p:last-child {
+  margin-top: 10px;
+  padding: 40px;
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+  background-color: lightgreen;
+  border-top: 4px solid lightgray;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+#sec-cta-standard > p:last-child {
+    background-image: linear-gradient(to bottom left, pink, hotpink);
+}
+
+#sec-cta-business > p:last-child {
+    background-image: linear-gradient(to top right, orange 15%, orangered);
+}
+
+#sec-cta-advanced > p:last-child {
+  background: linear-gradient(to right, lightgreen, darkgreen)
+}
