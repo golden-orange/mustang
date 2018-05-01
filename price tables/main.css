@@ -1,0 +1,82 @@
+html, body, section, h2, div, ul, li {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+#tables-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 100px auto;
+  width: 50vw;
+  position: relative;
+}
+
+#column-01, #column-02, #column-03 {
+  width: 33%;
+  text-align: center;
+}
+
+#title {
+  color: white;
+  background-color: rgba(149, 117, 205);
+}
+
+h2 {
+  border-bottom: 1px solid silver;
+  padding: 15px;
+}
+
+#price {
+  font-size: 3rem;
+  padding: 30px;
+}
+
+li {
+  padding: 15px;
+  font-variant: small-caps;
+  color: gray;
+  font-weight: 500;
+}
+
+li:nth-child(odd) {
+  background-color: rgba(250, 250, 250) ;
+}
+
+li:nth-child(even) {
+  background-color: rgba(236, 239, 241);
+}
+
+#cta-button {
+  margin-top: 20px;
+  border-top: 1px solid silver;
+}
+
+a {
+  border: 1px solid rgba(149, 117, 205);
+  font-variant: small-caps;
+  color: rgba(149, 117, 205);
+  font-size: 1.5rem;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+#column-02 {
+  position: relative;
+  top: -10px;
+  box-shadow: 2px 2px 50px 5px gray, -2px -2px 50px 5px gray;
+}
+
+#column-02 #title {
+  /* height: 170px; */
+}
+
+#column-02 > #service-list > li {
+  height: 55px;
+}
