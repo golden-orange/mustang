@@ -1,0 +1,111 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.background {
+  background-color: rgb(05, 04, 198);
+  animation-name: pulse;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-in;
+}
+
+@keyframes pulse {
+  0%  {
+    background-color: rgb(05, 04, 198, 0.1);
+
+  }
+  100%  {
+    background-color: rgb(05, 04, 198, 1);
+  }
+}
+
+/* div {
+  animation: pulse 5s infinite  height: 375px;
+  margin: 100px 0px 0px 100px;
+  border: 20px solid black;
+  border-radius: 10px 120px;
+  box-shadow: 5px 10px green, -10px -2px red, 5px 3px 2px 90px purple;
+  background-color: linear (15 78 98 blue);
+  display: inline-block;
+  background-image: url("Beauty-by-Masayo-website-1024x343.png");
+  z-index: 3;
+  background-repeat: no-repeat;
+  position: relative;
+} */
+
+svg {
+  box-shadow: 4px 5px 15px 30px pink, -5px -4px 15px 30px pink;
+}
+
+p {
+  display: inline-block;
+  font-size: 44px;
+  text-transform: capitalize;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+  text-underline-position: left;
+  text-shadow: 2px -12px 14px red, 2px -12px 14px red;
+  background-image: url("Beauty-by-Masayo-website-1024x343.png");
+  z-index: 2;
+  background: transparent;
+  position: relative;
+  color: rgb(05, 04, 198, 1);
+}
+
+#change-size {
+  font-size: 3.5em;
+  color: rgb(05, 04, 198, 1);
+  animation: text;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+}
+
+@keyframes text {
+  0%  {
+    color: rgb(05, 04, 198, 0.1);
+    font-size: 3rem;
+
+  }
+  100%  {
+    font-size: 3.5rem;
+    color: rgb(05, 04, 198, 1);
+  }
+}
+
+ul {
+  background-color: white;
+  position: relative;
+  top:100px;
+  left:500px;
+  list-style: none;
+}
+
+li {
+  margin-right: 10px;
+}
+
+a {
+  font-size: 3rem;
+  text-decoration: none;
+}
+
+a:hover {
+  font-size: 3rem;
+  border-bottom-style: double;
+  border-color: red;
+  animation: hover;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in;
+}
+
+@keyframes hover {
+  0% {
+    border-color: white;
+  }
+  100% {
+    border-color: red;
+  }
+}
