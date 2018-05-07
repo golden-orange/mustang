@@ -1,0 +1,179 @@
+html, body, h2, h3, p, ul, li {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+
+body {
+  margin-top: 30px;
+}
+
+ul {
+  list-style: none;
+}
+
+/*********************************/
+        /* start of sections */
+/*********************************/
+
+.price-table {
+  display: flex;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.col {
+  width: 20%;
+  text-align: center;
+}
+
+.col > header {
+  height: 100px;
+}
+
+.col > header > h2 {
+  padding: 10px 20px;
+  font-size: 1.5rem;
+}
+
+.col > header > h3 {
+  font-size: 2rem;
+  padding: 15px 15px 5px;
+}
+
+.col > p {
+  font-size: 0.7rem;
+  padding-bottom: 10px;
+}
+
+.list > li {
+  background-color: gray;
+  padding: 10px;
+  font-size: 0.5rem;
+  font-family: monospace;
+  font-weight: 500;
+}
+
+.list > li:nth-child(even) {
+  background-color: silver;
+}
+
+.list > li:last-child {
+  padding: 18px;
+  background-color: lightgray;
+}
+
+a {
+  border: 1px solid silver;
+  padding: 5px 30px;
+  background: linear-gradient(lightgray, darkgray 90%, gray);
+  text-decoration: none;
+  border-radius: 5px;
+  color: black;
+  font-family: serif;
+  letter-spacing: -1px;
+  font-weight: 700;
+  box-shadow: 0.5px 0.5px 1px gray;
+}
+
+a:hover {
+  border: 1px solid silver;
+  padding: 5px 30px;
+  background: linear-gradient(lightgray, darkgray 90%, gray);
+  text-decoration: none;
+  border-radius: 5px;
+  color: black;
+  font-family: serif;
+  letter-spacing: -1px;
+  box-shadow: none;
+}
+
+/*********************************/
+        /* section one  */
+/*********************************/
+
+#col-01 {
+  text-align: left;
+  width: 25%;
+}
+
+#col-01 h2 {
+  margin-top: 15px;
+  padding: 50px 5px 5px;
+  font-size: 1.5rem;
+  text-align: center;
+  background-color: white;
+  color: gray;
+}
+
+#col-01 .list {
+  margin-top: 10px;
+}
+
+#col-01 > .list > li:last-child {
+  padding: 18px;
+  background-color: white;
+}
+
+
+/*********************************/
+        /* section two  */
+/*********************************/
+
+#col-02 > header, p {
+  background-color: rgb(214, 234, 248);
+}
+
+#col-02 > ul > li:nth-child(odd) {
+  background-color: lightgray;
+}
+
+#col-02 > ul > li:nth-child(even) {
+  background-color: white;
+}
+
+
+/*********************************/
+        /* section three  */
+/*********************************/
+
+#col-03 {
+  position: relative;
+  top: -15px;
+}
+
+#col-03 {
+  box-shadow: 1px 1px 15px black;
+}
+
+#col-03 h2 {
+  background-color: rgb(36, 113, 163);
+}
+
+#col-03 header {
+  background-color: rgb(52, 152, 219);
+}
+
+#col-03 p {
+    background: linear-gradient(rgb(52, 152, 219), rgb(92, 102, 219) 90%, rgb(52, 152, 219));
+}
+
+#col-03 > ul > li {
+  height: 40px;
+}
+
+#col-03 > .list > li:last-child {
+  height: 50px;
+  padding-bottom: 15px;
+}
+
+/*********************************/
+        /* section four  */
+/*********************************/
+
+
+/*********************************/
+        /* section five  */
+/*********************************/

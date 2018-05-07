@@ -1,0 +1,190 @@
+html, body, ul, li, p, h2, h3, span {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin-top: 50px;
+}
+
+ul {
+  list-style: none;
+}
+/************************************/
+      /*  universal  */
+/************************************/
+
+.price-table {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  margin: 0 auto;
+
+}
+
+.col {
+  width: 100%;
+  height: 400px;
+  margin: 5px;
+}
+
+.col header {
+  padding: 20px;
+
+}
+
+.col h2 {
+  text-align: center;
+  text-transform: capitalize;
+  padding: 10px;
+  color: white;
+  letter-spacing: -0.09rem;
+}
+
+.col h3 {
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  background-color: white;
+  border-radius: 100%;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 2.75rem;
+  padding: 20px;
+  letter-spacing: -0.09rem;
+
+}
+
+.col span {
+  font-size: 0.55rem;
+  width: 150px;
+}
+
+.list {
+  text-align: center;
+}
+
+.list li {
+  font-size: 0.55rem;
+  padding: 5px;
+}
+
+.list li:last-child {
+  background-color: white;
+  padding: 30px;
+  border: 2px solid pink;
+  border-top: none;
+  border-bottom-right-radius: 50px;
+}
+
+.list a {
+  text-decoration: none;
+  color: white;
+  letter-spacing: -0.09rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+  padding: 8px 20px;
+}
+
+
+/************************************/
+      /*  section one  */
+/************************************/
+
+#col-01 header {
+  background: linear-gradient(rgb(63, 81, 181), rgb(235, 245, 251));
+  border: 2px solid rgb(26, 35, 126);
+  border-top-left-radius: 50px;
+}
+
+#col-01 .list > li:nth-child(odd) {
+  background-color: rgba(178, 235, 242, 0.7);
+}
+
+#col-01 .list > li:nth-child(even) {
+  background-color: rgb(224, 247, 250);
+}
+
+#col-01 .list a {
+  background: linear-gradient(rgb(235, 245, 251), rgb(63, 81, 181) 98%, rgb(235, 245, 251));
+  border: 2px solid rgb(26, 35, 126);
+  border-radius: 10px;
+  text-shadow: 0.5px 0.5px blue, -0.5px -0.5px blue;
+}
+
+#col-01 .list li:last-child {
+  border: 1px solid rgb(26, 35, 126);
+}
+
+#col-01 .list li:last-child {
+  border-top: none;
+}
+/************************************/
+      /*  section two  */
+/************************************/
+
+
+#col-02 header {
+  background-color: rgb(156, 39, 176);
+  border: 2px solid rgb(74, 20, 140);
+  border-top-left-radius: 50px;
+}
+
+#col-02 h3 {
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  background-color: white;
+  border-radius: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+/************************************/
+      /*  section three  */
+/************************************/
+
+
+#col-03 header {
+  background-color: rgb(233, 30, 99);
+  border: 2px solid rgb(173, 20, 87);
+  border-top-left-radius: 50px;
+}
+
+#col-03 h3 {
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  background-color: white;
+  border-radius: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+/************************************/
+      /*  section four  */
+/************************************/
+
+#col-04 header {
+  background-color: rgb(244, 67, 54);
+  border: 2px solid rgb(183, 28, 28);
+  border-top-left-radius: 50px;
+}
+
+#col-04 h3 {
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  background-color: white;
+  border-radius: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#col-04 .list > li:nth-child(odd) {
+  background-color: rgb(255, 235, 238);
+}
+
+#col-04 .list > li:nth-child(even) {
+  background-color: rgb(255, 205, 210);
+}
