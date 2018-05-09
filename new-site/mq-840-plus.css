@@ -1,22 +1,24 @@
-html, body, #idx-atf-wrapper, header, nav, ul, main, div, #idx-headshots-box, #idx-workshops-box, h1 {
+html, body, header, figure, nav, ul, main, div, h1, span {
   padding: 0;
   margin: 0;
   border: 0;
   box-sizing: border-box;
 }
-
+/*
 body {
   background:
     linear-gradient(215deg, rgba(255, 138, 101), rgba(255, 225, 0, 100) 65%),
     linear-gradient(120deg, rgba(255, 153, 0, 0.5), rgba(255, 255, 0, 0.5) 70.75%),
     linear-gradient(155deg, rgba(0, 255, 0, 0.5), rgba(0, 0, 255, 0.5) 71.75%),
     linear-gradient(180deg, rgba(75, 0, 130, 0.5), rgba(238, 130, 238, 0.5) 75.01%);
-}
+} */
 
 #idx-atf-wrapper {
   height: 100vh;
-  width: 90%;
+  width: 95%;
+  /* border: 4px solid black; */
   margin:10px auto;
+  padding: 10px 25px;
 }
 
 ul {
@@ -27,45 +29,31 @@ a {
   text-decoration: none;
 }
 
-.admin-nav {
+/******************************************/
+          /*  start of header  */
+/******************************************/
+
+#top-header {
   display: flex;
-  justify-content: flex-end;
-  height: 20px;
-  margin-top: 10px;
 }
 
-.admin-nav > ul {
-  display: flex;
-  justify-content: flex-end;
-  width: 100%;
-  margin-right: 90px;
-
-}
-
-.admin-nav > ul > li {
-  display: inline-block;
-  padding: 5px;
-}
-
-header {
-  display: flex;
+#logo {
+  background-image: url("img/Beauty-by-Masayo-website-1024x343.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 25%;
   height: 100px;
 }
 
-.header-logo {
-  /* display: inline-block; */
-  border: 9px dotted pink;
-  border-radius: 50%;
-  margin-left: 30px;
-  padding: 20px;
-  width: 30%;
+#logo a {
+  padding: 75px 150px;
 }
 
 nav {
   display: flex;
-  justify-content: flex-end;
-  width: 65%;
-  margin-right: 100px;
+  justify-content: space-around;
+  width: 70%;
 }
 
 nav > ul {
@@ -78,13 +66,23 @@ nav > ul > li {
 }
 
 nav > ul > li > a {
-  font-size: 30px;
+  font-size: 1.75rem;
   text-decoration: none;
 }
 
-/****************************************/
-/**  end of header **/
-/****************************************/
+#top-admin-links {
+  padding: 15px 0;
+  margin-left: 2%;
+}
+
+#top-admin-links > ul > li {
+  margin: 3px 40px;
+}
+
+#top-admin-links > ul > li > a {
+  font-size: 1.1rem;
+}
+
 
 /****************************************/
 /** start of main **/
@@ -100,17 +98,16 @@ main {
 
 #idx-headshots-wrapper, #idx-workshops-wrapper {
   width: 50%;
-  border: 14px solid pink;
-  border-radius: 10%;
-
+  /* border: 5px double navy; */
+  /* border-radius: 2%; */
   margin: 20px;
-  height: 600px;
+  height: 500px;
   position: relative;
 
 }
 
 #idx-headshots-wrapper {
-  background-image: url("img/homepage-headshot-example.jpg");
+  background-image: url("img/headshot-front-page.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -127,12 +124,12 @@ main {
 
 #idx-headshots-hdr, #idx-workshops-hdr {
   position: absolute;
-  top: -70px;
-  left: -30px;
+  top: -140px;
+  left: -70px;
   padding: 50px;
-  border: 14px solid pink;
-  border-radius: 10%;
-  background-color: hotpink;
+  /* border: 5px solid blue; */
+  /* border-radius: 100%; */
+  /* background-color: skyblue; */
 }
 
 
@@ -153,7 +150,6 @@ main {
   background-color: rgba(200, 250, 45, 0.4);
   padding: 30px;
   color: white;
-  font-size: 18px;
 }
 
 #idx-learn-link {
