@@ -1,0 +1,302 @@
+html, body, ul, li, header, nav, div, main, aside, section, article, h1, h2, h3, p, a, span, figure, figcaption, form, input, button, footer {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-size: 1rem;
+  letter-spacing: -1px;
+  font-family: open sans;
+}
+/*
+.atf-wrapper {
+  height: 100vh;
+  width: 95%;
+  margin: 0 auto;
+} */
+
+/* ul {
+  list-style-position: inside;
+}
+
+a {
+  text-decoration: none;
+} */
+
+/*************************************************/
+/*  start of main  */
+/*************************************************/
+
+main {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 98%;
+  max-width: 680px;
+  margin: 75px auto;
+}
+
+
+/*  start of main header  */
+
+
+main > header {
+  text-align: center;
+  margin: 0 auto;
+}
+
+main header span {
+  background-color: red;
+}
+
+main header h1 {
+  /* font-size: 4.25rem; */
+  font-variant: small-caps;
+  letter-spacing: -6px;
+  line-height: 60px;
+  font-family: sans-serif;
+}
+
+h2 {
+  /* font-size: 1.75rem; */
+  letter-spacing: -3px;
+  text-transform: uppercase;
+  line-height: 22px;
+  text-indent: -1px;
+}
+
+main header h3 {
+  /* font-size: 1.75rem; */
+  text-align: right;
+  line-height: 15px;
+  letter-spacing: 1px;
+  width: 83%;
+}
+
+main header > ul > li {
+  display: inline-block;
+  line-height: 5px;
+  letter-spacing: -1px;
+}
+
+/*  start of main article  */
+
+section {
+  width: 90%;
+  margin: 50px auto;
+}
+
+section:first-of-type {
+  margin: 50px auto;
+}
+
+article {
+
+  border-bottom: none;
+  position: relative;
+}
+
+
+/* .art-header div {
+  position: absolute;
+  top: -100px;
+  right: -100px;
+  border: 9px solid #B01C2B;
+  background: radial-gradient(circle at 50% 120%, #B01C2B, #0a0a0a 80%, red 100% );
+  color: white;
+  border-radius: 50%;
+  padding: 35px 0 0 10px;
+  width: 200px;
+  height: 200px;
+  font-size: 3.5rem;
+  font-family: fantasy;
+  letter-spacing: 1.5px;
+}
+
+.art-header div::before {
+  position: absolute;
+  top: -100px;
+  right: -100px;
+  background: radial-gradient(circle at 50% 120%, #B01C2B, #0a0a0a 80%, red 100% );
+  bottom: 2.5%;
+  left: 5%;
+  opacity: 0.6;
+  height: 100%;
+  width: 90%;
+  filter: blur(5px);
+  z-index: 2;
+  color: white;
+  border-radius: 50%;
+  padding: 35px 0 0 10px;
+  font-size: 3.5rem;
+  font-family: fantasy;
+  letter-spacing: 1.5px;
+}
+
+.art-header div::after {
+  position: absolute;
+  top: -100px;
+  right: -100px;
+  top: 5%;
+  left: 10%;
+  border-radius: 50%;
+  background: radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8) 14%, rgba(255, 255, 255, 0) 24%);
+  transform: translateX(-80px) translateY(-90px) skewX(-20deg);
+  filter: blur(10px);
+  padding: 35px 0 0 10px;
+  font-size: 3.5rem;
+  font-family: fantasy;
+  letter-spacing: 1.5px;
+} */
+
+article > ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+article > ul > li {
+  width: 50%;
+}
+
+article p {
+  padding: 5px;
+}
+
+
+
+/*  start of main article section   */
+
+
+
+#art-sec-01, #art-sec-02, #art-sec-03 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 10px 15px;
+}
+
+
+#art-sec-01 div {
+  width: 30%;
+  margin: 10px;
+}
+
+#art-sec-01 > p {
+  border: 4px dotted blue;
+  display: block;
+  font-size: 1.5rem;
+  letter-spacing: -2px;
+}
+
+#art-sec-01 figure {
+  height: 350px;
+  width: 350px;
+  background-color: gold;
+  border: 2px solid black;
+}
+
+.art-01 #art-sec-02 {
+  width: 100%;
+  border: 9px dotted red;
+}
+
+#art-sec-01 figcaption {
+  font-size: 0.5rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+#art-sec-02 div {
+  width: 20%;
+  margin: 0 25px;
+}
+
+#art-sec-02 figure {
+  height: 250px;
+  background-color: gold;
+  border: 2px solid black;
+}
+
+#art-sec-03 figure {
+  width: 500px;
+  height: 450px;
+  background-color: gold;
+  border: 3px solid black;
+}
+
+/*************************************************/
+/*  start of call to action   */
+/*************************************************/
+
+.cta-container {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+
+aside section {
+  width: 30%;
+  list-style-position: inside;
+  list-style-type: disc;
+  font-weight: 600;
+}
+
+aside section header {
+  border: 2px solid red;
+  background: linear-gradient(red, white, 35);
+  height: 200px;
+}
+
+
+/********************************/
+      /*  start of form  */
+/********************************/
+
+.form-container {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  margin: 0 auto;
+}
+
+form input {
+  display: block;
+  padding: 10px 0 10px 5px;
+  width: 200px;
+  height: 25px;
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+  border: 1px solid gray;
+}
+
+#cta-button {
+  padding: 15px 45px;
+  color: red;
+  font-weight: 700;
+  font-size: 1.5rem;
+  background: linear-gradient(rgba(100, 245, 54, 0.1)35%, rgba(255, 235, 55, 1));
+  border: 0.5px solid gold;
+  border-radius: 10px;
+}
+
+#cta-button:hover {
+  padding: 15px 45px;
+  width: 200px;
+  color: red;
+  font-weight: 600;
+  background: linear-gradient(rgba(100, 245, 54, 0.1)35%, rgba(255, 235, 55, 1));
+  border: 0.5px solid gold;
+  border-radius: 10px;
+}
+
+
+/*************************************************/
+          /*  start of footer  */
+/*************************************************/
+
+footer {
+  height: 100px;
+  background-color: lightgray;
+}

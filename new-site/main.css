@@ -1,0 +1,330 @@
+html, body, section, article, header, figure, nav, main, div, h1, h2, p, span, svg, aside, form, input, label, button, ul, li, a {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Alice', serif;
+}
+
+body {
+  /* max-width: 680px; */
+}
+
+ul {
+  list-style: none;
+  font-family: 'Raleway', sans-serif;
+  color: black;
+  font-weight: 800;
+}
+
+p {
+  color: gray;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+/******************************************/
+          /*  start of header  */
+/******************************************/
+
+#top-header {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  padding: 10px;
+  width: 100%;
+  background-color: white;
+}
+
+#logo {
+  background-image: url("img/Beauty-by-Masayo-emblem.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 10%;
+  height: 50px;
+}
+
+#logo a {
+  padding: 80%;
+}
+
+
+/******************************************/
+          /*  start of menu  */
+/******************************************/
+
+#menu-label {
+    /* position */
+    position: fixed;
+    top: 1.2rem;
+    right: 2rem;
+    z-index: 1;
+    /*arrange content*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="checkbox"] {
+    /* toggle */
+    display: none;
+}
+
+#sidebar {
+    /* toggle */
+    position: fixed;
+    right: -850rem;
+    /* formatting */
+    height: 50vh;
+    width: 75vw;
+    max-width: 200px;
+    background-color: silver;
+    border-right: 2px solid white;
+    font-size: 1.5rem;
+    /* transition */
+    transition-property: all;
+    transition-timing-function: ease;
+    transition-duration: 0.5s;
+    overflow: scroll;
+}
+
+#sidebar a {
+  color: black;
+}
+
+input[type="checkbox"]:checked + #sidebar {
+    /* toggle */
+    right: 0;
+}
+
+.sidebar ul {
+    margin-top: 4rem;
+}
+
+#sidebar li {
+  padding: 5px;
+}
+
+
+/****************************************/
+/** start of main **/
+/****************************************/
+
+h1, h2, h3 {
+  font-family: 'Alice', serif;
+  color: rgb(190, 30, 45);
+  font-variant: small-caps;
+}
+
+main {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 95%;
+  max-width: 680px;
+  margin: 75px auto;
+}
+
+main > header {
+  width: 100%;
+  max-width: 350px;
+  height: 70px;
+  text-align: center;
+}
+
+main header h1 {
+
+}
+
+main > header > h2 {
+  text-indent: 18%;
+  line-height: 12px;
+  color: gray;
+  width: 100%;
+}
+
+h3 {
+  color: gray;
+  font-size: 1.3rem;
+  width: 75%;
+  margin: 25px auto;
+  margin-bottom: 5px;
+}
+
+.articles-container {
+  margin: 40px auto;
+}
+
+article {
+  border: 2px solid rgba(190, 30, 45, 0.1);
+  border-radius: 10px;
+  padding: 10px 5px;
+  background: linear-gradient(rgb(235, 245, 251, 0.5)45%, rgb(235, 245, 251, 0.8));
+  margin: 50px auto;
+}
+
+article header h2 {
+  font-size: 1.75rem;
+  color: rgb(190, 30, 45);
+  text-align: left;
+  font-variant: small-caps;
+}
+
+main ul {
+  list-style: disc;
+  list-style-position: outside;
+  width: 90%;
+  margin: 5px auto;
+}
+
+article figure {
+  border-radius: 10px;
+}
+
+#figure-00 {
+  background-image: url("img/headshots/headshots-white-male.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 90vw;
+  height: 300px;
+}
+
+#figure-01 {
+  background-image: url("img/headshots/headshots-studio.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+#figure-02 {
+  background-image: url("img/headshots/headshots-black-female.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+#figure-03 {
+  background-image: url("img/headshots/headshots-white-male.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+#figure-04 {
+  background-image: url("img/headshots/headshots-white-male.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.articles-container article section figure {
+  width: 90vw;
+  height: 400px;
+}
+
+main p {
+  font-size: 600;
+  margin: 5px;
+  color: gray;
+}
+
+.discounters {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  padding: 10px 0;
+  /* border-top: 2px solid black;
+  border-bottom: 2px solid black; */
+  width: 100%;
+}
+
+.discounters > p {
+  color: white;
+  background: linear-gradient(rgb(86, 101, 115, 0.7)45%, rgb(86, 101, 115, 1));
+  border-radius: 10px;
+  padding: 10px;
+  width: 55%;
+  margin-right: -10px;
+  font-weight: 700;
+  font-size: 1.1rem;
+  font-family: arial;
+  line-height: 18px;
+}
+
+.discounters i {
+  width: 25%;
+}
+/* .pull-quote {
+    width: 175px;
+} */
+
+/****************************************/
+        /** start of contact form **/
+/****************************************/
+
+.form-container {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 90%;
+  margin: -85px auto;
+  margin-bottom: 25px;
+  border: 3px solid black;
+  border-radius: 5px;
+  max-width: 700px;
+}
+
+.form-container header h3 {
+  font-size: 3rem;
+}
+
+form {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+input {
+  margin: 10px auto;
+  width: 90%;
+  height: 30px;
+  font-size: 1.25rem;
+  border: 2px solid silver;
+}
+
+.cta-button {
+  margin: 10px auto;
+  padding: 10px 30px;
+  border-radius: 5px;
+  font-size: 1.25rem;
+  height: 100px;
+  width: 90%;
+  max-width: 400px;
+  background: linear-gradient(rgb(190, 30, 45, 0.5)45%, rgb(190, 30, 45, 1));
+}
+
+.cta-button:active {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px gray;
+}
+
+/****************************************/
+        /** start of footer **/
+/****************************************/
+
+footer {
+  height: 100px;
+  background-color: lightblue;
+  display: none;
+}

@@ -1,0 +1,20 @@
+main
+
+header
+ h1
+ h2
+
+figure
+
+h3
+ul
+
+section [container]
+- contains articles
+
+article
+- contains numbers section, article header, sections containing paragraphs and figures
+
+main>header>h1+h2^figure^h3^ul
+
+section[.container]>article>section[.numbers]+header+p*n+figure*n

@@ -1,0 +1,32 @@
+
+#sidebar {
+  width: 25vw;
+}
+
+.articles-container {
+  max-width: 800px;
+}
+
+.articles-container figure {
+  max-width: 90%;
+  height: 400px;
+  margin: 40px auto;
+}
+
+/****************************************/
+        /** start of contact form **/
+/****************************************/
+
+.form-container {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 90%;
+  margin: 5px auto;
+  border: 3px solid black;
+  border-radius: 5px;
+}
+
+
+footer {
+  display: block;
+}
