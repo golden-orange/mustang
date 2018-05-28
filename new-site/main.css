@@ -5,6 +5,8 @@ html, body, section, article, header, figure, nav, main, div, h1, h2, p, span, s
   box-sizing: border-box;
   font-family: 'Raleway', sans-serif;
   font-family: 'Alice', serif;
+  font-size: 1rem;
+  font-weight: 400;
 }
 
 body {
@@ -21,7 +23,7 @@ ul {
 p {
   color: gray;
   font-family: 'Raleway', sans-serif;
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 
 a {
@@ -47,7 +49,7 @@ a {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  width: 10%;
+  width: 20%;
   height: 50px;
 }
 
@@ -97,6 +99,7 @@ input[type="checkbox"] {
 
 #sidebar a {
   color: black;
+  padding: 10px;
 }
 
 input[type="checkbox"]:checked + #sidebar {
@@ -127,39 +130,52 @@ main {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  width: 95%;
-  max-width: 680px;
+  width: 98%;
+  /* max-width: 680px; */
   margin: 75px auto;
 }
 
 main > header {
   width: 100%;
-  max-width: 350px;
-  height: 70px;
+  /* max-width: 350px; */
+}
+
+h1 {
+  font-size: 4.5rem;
+  line-height: 60%;
+  letter-spacing: -4px;
   text-align: center;
 }
 
-main header h1 {
-
-}
-
 main > header > h2 {
-  text-indent: 18%;
-  line-height: 12px;
-  color: gray;
+  /* text-indent: 18%; */
+  line-height: 100%;
+  color: rgb(190, 30, 45);
   width: 100%;
+  /* max-width: 500px; */
+  font-size: 2rem;
+  text-align: center;
 }
 
 h3 {
-  color: gray;
+  color: rgb(190, 30, 45);
   font-size: 1.3rem;
   width: 75%;
   margin: 25px auto;
   margin-bottom: 5px;
 }
 
+main header figure {
+  background-image: url("img/headshots/headshots-white-male.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 500px;
+  text-align: center;
+}
+
 .articles-container {
-  margin: 40px auto;
+  margin: 0 auto;
 }
 
 article {
@@ -167,34 +183,76 @@ article {
   border-radius: 10px;
   padding: 10px 5px;
   background: linear-gradient(rgb(235, 245, 251, 0.5)45%, rgb(235, 245, 251, 0.8));
-  margin: 50px auto;
+  margin: 10px auto;
 }
 
-article header h2 {
+.articles-container article section figure {
+  width: 90vw;
+  height: 400px;
+}
+
+/* article header h2 {
   font-size: 1.75rem;
   color: rgb(190, 30, 45);
   text-align: left;
   font-variant: small-caps;
-}
+} */
 
 main ul {
-  list-style: disc;
-  list-style-position: outside;
-  width: 90%;
-  margin: 5px auto;
+  margin: 15px 20px;
+}
+
+main ul li {
+  padding: 15px;
+  font-size: 1.5rem;
+}
+
+.fees {
+  text-align: center;
+  width: 95%;
+  max-width: 650px;
+  margin: 20px auto;
+  border-radius: 5px;
+  box-shadow: 2px 3px 15px gray, -2px -3px 15px gray;
+  padding: 10px 30px;
+}
+
+.fees li:first-of-type {
+  line-height: 100px;
+}
+
+.fees li:nth-child(2) {
+  line-height: 15px;
+  font-size: 2em;
+  margin-top: -40px;
+}
+
+.fee li:nth-child(3) {
+  font-size: 1.5rem;
+}
+
+.fees li:nth-child(n+5):nth-child(-n+8) {
+  margin: 10px;
+}
+
+.dollar-sign {
+  font-size: 3rem;
+  vertical-align:text-bottom;
+  margin-right: -5px;
+}
+
+.dollars {
+  font-size: 9rem;
+  letter-spacing: -20px;
+  vertical-align: text-bottom;
+}
+
+.three {
+  font-size: 3.5rem;
 }
 
 article figure {
   border-radius: 10px;
-}
-
-#figure-00 {
-  background-image: url("img/headshots/headshots-white-male.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 90vw;
-  height: 300px;
 }
 
 #figure-01 {
@@ -226,17 +284,15 @@ article figure {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 
-.articles-container article section figure {
-  width: 90vw;
-  height: 400px;
+article h2 {
+  font-size: 2.5rem;
 }
 
 main p {
-  font-size: 600;
-  margin: 5px;
+  font-size: 1.2rem;
+  padding: 10px 5px;
   color: gray;
 }
 
@@ -266,9 +322,6 @@ main p {
 .discounters i {
   width: 25%;
 }
-/* .pull-quote {
-    width: 175px;
-} */
 
 /****************************************/
         /** start of contact form **/
