@@ -17,4 +17,11 @@ article
 
 main>header>h1+h2^figure^h3^ul
 
-section[.container]>article>section[.numbers]+header+p*n+figure*n
+section[.container]>article>+header+p*n+figure*n
+
+main 
+	section
+		article
+			header
+				p
+					figure

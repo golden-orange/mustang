@@ -1,1 +1,13 @@
 
+main {
+  max-width: 1300px;
+}
+
+.form-container {
+  max-width: 85%;
+}
+
+.cta-sec {
+  width: 33%;
+  background-color: white;
+}

@@ -1,7 +1,21 @@
 
+main {
+  max-width: 800px;
+}
 
-#sidebar {
-  width: 25vw;
+.main-header {
+  margin-bottom: 40px;
+}
+
+.workshops-header-list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-top: -10px;
+}
+
+.workshops-header-list li {
+  display: inline;
 }
 
 .articles-container {
@@ -20,13 +34,16 @@
 
 .form-container {
   display: flex;
-  flex-flow: column nowrap;
-  width: 90%;
+  flex-flow: row wrap;
+  width: 95%;
+  max-width: 800px;
   margin: 5px auto;
-  border: 3px solid black;
-  border-radius: 5px;
 }
 
+.cta-sec {
+  width: 100%;
+  background-color: white;
+}
 
 footer {
   display: block;
