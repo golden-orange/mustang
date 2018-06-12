@@ -1,0 +1,61 @@
+#logo {
+  /* margin-left: 10%; */
+}
+
+main {
+  max-width: 800px;
+}
+
+.main-header {
+  margin-bottom: 40px;
+}
+
+.workshops-header-list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-top: -10px;
+}
+
+.workshops-header-list li {
+  display: inline;
+}
+
+.articles-container {
+  max-width: 800px;
+}
+
+.articles-container figure {
+  max-width: 90%;
+  height: 400px;
+  margin: 40px auto;
+}
+
+.contact {
+  max-width: 800px;
+}
+
+.contact figure img {
+  max-width: 500px;
+}
+
+/****************************************/
+        /** start of contact form **/
+/****************************************/
+
+.form-container {
+  display: flex;
+  flex-flow: row wrap;
+  width: 95%;
+  max-width: 800px;
+  margin: 5px auto;
+}
+
+.cta-sec {
+  width: 100%;
+  background-color: white;
+}
+
+footer {
+  display: block;
+}

@@ -1,0 +1,42 @@
+#logo {
+  /* margin-left: 1%; */
+}
+
+main {
+  max-width: 1500px;
+}
+
+/*  homepage container  */
+.homepage-container {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row nowrap;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+#idx-headshots-wrapper {
+  width: 50%;
+}
+
+#idx-workshops-wrapper {
+  width: 50%;
+}
+
+.homepage-container h1 {
+  font-family: 'Alice', serif;
+  font-size: 3.8rem;
+}
+
+.homepage-container img {
+  width: 95%;
+}
+
+.form-container {
+  max-width: 85%;
+}
+
+.cta-sec {
+  width: 33%;
+  background-color: white;
+}

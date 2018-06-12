@@ -1,9 +1,7 @@
 /* border for troubleshooting
 border: 1px solid deeppink; */
 
-
-
-html, body, section, article, header, figure, figcaption, nav, main, div, h1, h2, p, span, svg, form, input, label, button, ul, li, a {
+html, body, section, article, header, figure, figcaption, nav, main, div, img, h1, h2, p, span, svg, form, input, label, button, ul, li, a {
   padding: 0;
   margin: 0;
   border: 0;
@@ -12,10 +10,6 @@ html, body, section, article, header, figure, figcaption, nav, main, div, h1, h2
   font-family: 'Alice', serif;
   font-size: 1rem;
   font-weight: 400;
-}
-
-body {
-  /* max-width: 680px; */
 }
 
 ul {
@@ -61,9 +55,9 @@ a {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  width: 20%;
+  width: 15%;
   height: 55px;
-  /* margin-left: 1rem; */
+  /* margin-left: 10%; */
 }
 
 #logo a {
@@ -77,9 +71,7 @@ a {
 
 #menu-label {
     /* position */
-    position: fixed;
-    top: 1.2rem;
-    right: 2rem;
+    margin-right: 5%;
     z-index: 1;
     /*arrange content*/
     display: flex;
@@ -136,7 +128,7 @@ input[type="checkbox"]:checked + #sidebar {
 /** start of main **/
 /****************************************/
 
-h1, h2, h3 {
+h1, h2 {
   font-family: 'Alice', serif;
   color: rgb(190, 30, 45);
   font-variant: small-caps;
@@ -151,6 +143,40 @@ main {
   margin: 75px auto;
 }
 
+/*  homepage container  */
+.homepage-container {
+  display: block;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.homepage-container h1 {
+  font-family: 'Alice', serif;
+  font-size: 3.8rem;
+}
+
+.homepage-container img {
+  width: 95%;
+}
+
+.homepage-container span {
+  color: red;
+  font-size: 1.2rem;
+  text-decoration: underline;
+}
+
+#idx-headshots-wrapper figure img {
+
+}
+
+#idx-workshops-wrapper figure img {
+
+}
+
+.main-header {
+  width: 100%;
+}
+
 .main-header h1 {
   font-size: 4rem;
   line-height: 45px;
@@ -159,9 +185,6 @@ main {
   -webkit-text-stroke: 0.5px black;
 }
 
-.main-header {
-  width: 100%;
-}
 
 .main-header h2 {
   line-height: 30px;
@@ -172,11 +195,13 @@ main {
   -webkit-text-stroke: 0.5px black;
 }
 
-h3 {
+.main-header h3 {
   color: rgb(190, 30, 45);
-  font-size: 1.9rem;
+  font-size: 1.5rem;
   /* width: 75%; */
-  margin: 5px 0 -30px;
+  margin: 10px 0 -30px;
+  border: 3px dotted black;
+  line-height: 10px;
 }
 
 .workshops-header-list {
@@ -184,15 +209,9 @@ h3 {
   flex-flow: row wrap;
   /* text-align: center;  */
 }
-/*
-.workshops-header-list li {
-  display: inline-block;
-  font-size: 1.1rem;
-  line-height: 1px;
-} */
 
 main header figure {
-  background-image: url("img/headshots/headshots-white-male.jpg");
+  background-image: url("");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -205,10 +224,10 @@ main header figure {
 }
 
 article {
-  border: 2px solid rgba(190, 30, 45, 0.1);
+  /* border: 2px solid rgba(190, 30, 45, 0.1); */
   border-radius: 10px;
   padding: 10px 5px;
-  background: linear-gradient(rgb(235, 245, 251, 0.5)45%, rgb(235, 245, 251, 0.8));
+  /* background: linear-gradient(rgb(235, 245, 251, 0.5)45%, rgb(235, 245, 251, 0.8)); */
   margin: 10px auto;
 }
 
@@ -259,8 +278,10 @@ main ul li {
 
 .fees li:nth-child(n+5):nth-child(-n+8) {
   text-align: left;
-  width: 50%;
+  width: 70%;
   margin: -5px auto;
+  padding-left: 50px;
+  list-style-position: outside;
 }
 
 .dollar-sign {
@@ -297,32 +318,93 @@ article figure {
   border-radius: 10px;
 }
 
-#figure-01 {
-  background-image: url("img/headshots/headshots-studio.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
+.fig-montage-3 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content:space-around;
+  width: 95%;
+  margin: 20px auto;
 }
 
-#figure-02 {
+.fig-montage-3 img {
+  width: 33%;
+}
+
+
+#headshots-figure-01 {
+  background-image: url("img/headshots/white-female-real-estate-headshot.svg");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#headshots-figure-02 {
   background-image: url("img/headshots/headshots-black-female.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 
-#figure-03 {
+#headshots-figure-03 {
   background-image: url("img/headshots/headshots-white-male.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 
-#figure-04 {
+#headshots-figure-04 {
+  background-image: url("img/headshots/asian-couple-young-female-portrait.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+
+#headshots-figure-05 {
+  background-image: url("img/headshots/asian-female-natural-mu-headshot.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#headshots-figure-06 {
+  background-image: url("img/headshots/headshots-studio.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#workshops-figure-01 {
+  background-image: url("img/workshops/RAW Montreal at Club Soda.jpg");
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#workshops-figure-02 {
+  background-image: url("img/workshops/black-female-model-yellow-background.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#workshops-figure-03 {
   background-image: url("img/headshots/headshots-white-male.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#workshops-figure-04 {
+  background-image: url("img/headshots/asian-couple-young-female-portrait.svg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+
+#workshops-figure-05 {
+  background-image: url("img/headshots/headshots-studio.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -339,6 +421,45 @@ main p {
   color: gray;
 }
 
+.contact {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  width: 95%;
+  margin: 100px auto;
+}
+
+.contact h1 {
+  font-size: 3.8rem;
+  font-family: 'Alice', serif;
+}
+
+.contact img {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.contact .form-container p {
+  text-align: center;
+}
+
+
+.contact .form-container {
+  margin: 30px;
+}
+
+
+
+.contact .cta-button {
+  font-size: 2rem;
+  font-family: arial;
+  text-transform: uppercase;
+}
+
+.contact .form-container form p:nth-child(3) {
+  font-weight: 700;
+}
+
 /****************************************/
         /** start of contact form **/
 /****************************************/
@@ -353,13 +474,18 @@ main p {
   max-width: 600px;
 }
 
-.form-container li:nth-child(2) {
+.form-container .fees li:first-child {
+  line-height: 60px;
+}
+
+.form-container .fees li:nth-child(2) {
   width: 100%;
-  line-height: 25px;
+  line-height: 15px;
+  margin-top: 1px;
   font-size: 2em;
 }
 
-.form-container li:nth-child(3) {
+.form-container .fees li:nth-child(3) {
   margin-top: 20px;
 }
 .form-container header {
@@ -369,6 +495,11 @@ main p {
 
 .form-container header h3 {
   font-size: 3rem;
+}
+
+.form-container .fees li:nth-child(n+5):nth-child(-n+8) {
+  margin-left: -10px;
+  width: 100%;
 }
 
 form {

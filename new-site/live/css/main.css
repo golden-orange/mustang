@@ -1,0 +1,553 @@
+/* border for troubleshooting
+border: 1px solid deeppink; */
+
+html, body, section, article, header, figure, figcaption, nav, main, div, img, h1, h2, p, span, svg, form, input, label, button, ul, li, a {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Alice', serif;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+ul {
+  list-style: none;
+  font-family: 'Raleway', sans-serif;
+  color: black;
+  font-weight: 800;
+}
+
+p {
+  color: gray;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.workshops-header-list li {
+  display: none;
+  line-height: 5px;
+  letter-spacing: -1px;
+}
+
+
+/******************************************/
+          /*  start of header  */
+/******************************************/
+
+#top-header {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  padding: 10px;
+  width: 100%;
+  background-color: white;
+}
+
+#logo {
+  background-image: url("img/Beauty-by-Masayo-emblem.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 15%;
+  height: 55px;
+  /* margin-left: 10%; */
+}
+
+#logo a {
+  padding: 40%;
+}
+
+
+/******************************************/
+          /*  start of menu  */
+/******************************************/
+
+#menu-label {
+    /* position */
+    margin-right: 5%;
+    z-index: 1;
+    /*arrange content*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(190, 30, 45);
+}
+
+input[type="checkbox"] {
+    /* toggle */
+    display: none;
+}
+
+#sidebar {
+    /* toggle */
+    position: fixed;
+    right: -850rem;
+    /* formatting */
+    height: 100vh;
+    width: 75vw;
+    max-width: 300px;
+    background-color: black;
+    border-right: 2px solid white;
+    font-family: arial;
+    /* transition */
+    transition-property: all;
+    transition-timing-function: ease-in;
+    transition-duration: 0.25s;
+    overflow: scroll;
+}
+
+#sidebar a {
+  color: white;
+  font-family: sans-serif;
+  margin-left: 25px;
+  font-size: 1.5rem;
+}
+
+input[type="checkbox"]:checked + #sidebar {
+    /* toggle */
+    right: 0;
+}
+
+#sidebar li:first-of-type {
+  margin-top: 35px;
+}
+
+#sidebar li {
+  padding: 5px 5px 25px;
+}
+
+
+/****************************************/
+/** start of main **/
+/****************************************/
+
+h1, h2 {
+  font-family: 'Alice', serif;
+  color: rgb(190, 30, 45);
+  font-variant: small-caps;
+}
+
+main {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 95%;
+  max-width: 600px;
+  margin: 75px auto;
+}
+
+/*  homepage container  */
+.homepage-container {
+  display: block;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.homepage-container h1 {
+  font-family: 'Alice', serif;
+  font-size: 3.8rem;
+}
+
+.homepage-container img {
+  width: 95%;
+}
+
+.homepage-container span {
+  color: red;
+  font-size: 1.2rem;
+  text-decoration: underline;
+}
+
+#idx-headshots-wrapper figure img {
+
+}
+
+#idx-workshops-wrapper figure img {
+
+}
+
+.main-header {
+  width: 100%;
+}
+
+.main-header h1 {
+  font-size: 4rem;
+  line-height: 45px;
+  letter-spacing: -4px;
+  text-align: center;
+  -webkit-text-stroke: 0.5px black;
+}
+
+
+.main-header h2 {
+  line-height: 30px;
+  color: rgb(190, 30, 45);
+  width: 100%;
+  font-size: 2rem;
+  text-align: center;
+  -webkit-text-stroke: 0.5px black;
+}
+
+.main-header h3 {
+  color: rgb(190, 30, 45);
+  font-size: 1.5rem;
+  /* width: 75%; */
+  margin: 10px 0 -30px;
+  border: 3px dotted black;
+  line-height: 10px;
+}
+
+.workshops-header-list {
+  display: flex;
+  flex-flow: row wrap;
+  /* text-align: center;  */
+}
+
+main header figure {
+  background-image: url("");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 500px;
+  text-align: center;
+}
+
+.articles-container {
+  margin: 0 auto;
+}
+
+article {
+  /* border: 2px solid rgba(190, 30, 45, 0.1); */
+  border-radius: 10px;
+  padding: 10px 5px;
+  /* background: linear-gradient(rgb(235, 245, 251, 0.5)45%, rgb(235, 245, 251, 0.8)); */
+  margin: 10px auto;
+}
+
+.articles-container article section figure {
+  width: 90vw;
+  height: 400px;
+}
+
+main ul {
+  margin: 15px 20px;
+}
+
+main ul li {
+  padding: 15px;
+  font-size: 1.5rem;
+}
+
+.fees {
+  text-align: center;
+  width: 95%;
+  max-width: 650px;
+  margin: 20px auto;
+  border-radius: 5px;
+  box-shadow: 2px 3px 15px gray, -2px -3px 15px gray;
+  padding: 10px 30px;
+}
+
+.fees li:first-of-type {
+  line-height: 90px;
+}
+
+.fees li:nth-child(2) {
+  line-height: 35px;
+  font-size: 3em;
+  margin-top: -50px;
+  margin-bottom: -10px;
+  letter-spacing: -3px;
+}
+
+.fee li:nth-child(3) {
+  font-size: 1.5rem;
+  letter-spacing: -2px;
+  line-height: 12px;
+}
+
+.fees li:nth-child(5) {
+}
+
+.fees li:nth-child(n+5):nth-child(-n+8) {
+  text-align: left;
+  width: 70%;
+  margin: -5px auto;
+  padding-left: 50px;
+  list-style-position: outside;
+}
+
+.dollar-sign {
+  font-size: 3rem;
+  vertical-align:50px;
+  margin-right: -10px;
+}
+
+.dollars {
+  font-size: 9rem;
+  letter-spacing: -20px;
+  vertical-align: text-bottom;
+}
+
+.three {
+  font-size: 4rem;
+}
+
+.asterisk-300 {
+  font-size: 4rem;
+  width: 40px;
+  margin-left: 10px;
+  vertical-align:20px;
+  color: red;
+}
+
+.asterisk-fees {
+  font-size: 28px;
+  color: red;
+  padding: 5px;
+}
+
+article figure {
+  border-radius: 10px;
+}
+
+.fig-montage-3 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content:space-around;
+  width: 95%;
+  margin: 20px auto;
+}
+
+.fig-montage-3 img {
+  width: 33%;
+}
+
+
+#headshots-figure-01 {
+  background-image: url("img/headshots/white-female-real-estate-headshot.svg");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#headshots-figure-02 {
+  background-image: url("img/headshots/headshots-black-female.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#headshots-figure-03 {
+  background-image: url("img/headshots/headshots-white-male.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#headshots-figure-04 {
+  background-image: url("img/headshots/asian-couple-young-female-portrait.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+
+#headshots-figure-05 {
+  background-image: url("img/headshots/asian-female-natural-mu-headshot.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#headshots-figure-06 {
+  background-image: url("img/headshots/headshots-studio.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#workshops-figure-01 {
+  background-image: url("img/workshops/RAW Montreal at Club Soda.jpg");
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#workshops-figure-02 {
+  background-image: url("img/workshops/black-female-model-yellow-background.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#workshops-figure-03 {
+  background-image: url("img/headshots/headshots-white-male.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#workshops-figure-04 {
+  background-image: url("img/headshots/asian-couple-young-female-portrait.svg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+
+#workshops-figure-05 {
+  background-image: url("img/headshots/headshots-studio.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+article h2 {
+  font-size: 2.5rem;
+  line-height: 30px;
+}
+
+main p {
+  font-size: 1.2rem;
+  padding: 10px 5px;
+  color: gray;
+}
+
+.contact {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  width: 95%;
+  margin: 100px auto;
+}
+
+.contact h1 {
+  font-size: 3.8rem;
+  font-family: 'Alice', serif;
+}
+
+.contact img {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.contact .form-container p {
+  text-align: center;
+}
+
+
+.contact .form-container {
+  margin: 30px;
+}
+
+
+
+.contact .cta-button {
+  font-size: 2rem;
+  font-family: arial;
+  text-transform: uppercase;
+}
+
+.contact .form-container form p:nth-child(3) {
+  font-weight: 700;
+}
+
+/****************************************/
+        /** start of contact form **/
+/****************************************/
+
+.form-container {
+  display: flex;
+  flex-flow: row wrap;
+  width: 90%;
+  margin: -85px auto;
+  margin-bottom: 25px;
+  padding: 15px;
+  max-width: 600px;
+}
+
+.form-container .fees li:first-child {
+  line-height: 60px;
+}
+
+.form-container .fees li:nth-child(2) {
+  width: 100%;
+  line-height: 15px;
+  margin-top: 1px;
+  font-size: 2em;
+}
+
+.form-container .fees li:nth-child(3) {
+  margin-top: 20px;
+}
+.form-container header {
+  text-align: center;
+  width: 100%;
+}
+
+.form-container header h3 {
+  font-size: 3rem;
+}
+
+.form-container .fees li:nth-child(n+5):nth-child(-n+8) {
+  margin-left: -10px;
+  width: 100%;
+}
+
+form {
+  display: flex;
+  flex-flow: column wrap;
+  width: 100%;
+}
+
+input {
+  margin: 10px auto;
+  width: 90%;
+  max-width: 400px;
+  height: 55px;
+  font-size: 1.25rem;
+  font-family: arial;
+  border: 2px solid silver;
+}
+
+.cta-button {
+  margin: 10px auto;
+  padding: 10px 30px;
+  border-radius: 5px;
+  font-size: 1.25rem;
+  height: 100px;
+  width: 90%;
+  max-width: 400px;
+  background: linear-gradient(rgb(190, 30, 45, 0.5)45%, rgb(190, 30, 45, 1));
+}
+
+.cta-button:active {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px gray;
+}
+
+.cta-sec {
+  margin-top: 20px;
+  border: 4px solid red;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+/****************************************/
+        /** start of footer **/
+/****************************************/
+
+footer {
+  height: 100px;
+  background-color: lightblue;
+  display: none;
+}
