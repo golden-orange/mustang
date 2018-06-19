@@ -46,6 +46,6 @@ builds/**/images/*
 #*.png
 #*.jpeg
 
-#* .jpg# security / ssl
+#*.jpg#*.svg#* security / ssl
 *.pem
 *.xxjson
