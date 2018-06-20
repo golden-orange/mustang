@@ -31,6 +31,33 @@ main {
   margin: 40px auto;
 }
 
+/*  homepage container  */
+.homepage-container {
+  display: flex;
+  width: 95%;
+  margin: 0 auto;
+}
+
+/* .homepage-container h1 {
+  font-family: 'Alice', serif;
+  font-size: 3.8rem;
+}
+
+.homepage-container img {
+  width: 95%;
+}
+
+.homepage-container span {
+  color: red;
+  font-size: 1.2rem;
+  text-decoration: underline;
+} */
+
+.idx-headshots-wrapper, .idx-workshops-wrapper {
+  width: 50%;
+  margin: 10px;
+}
+
 .contact {
   max-width: 800px;
 }
@@ -47,8 +74,12 @@ main {
   display: flex;
   flex-flow: row wrap;
   width: 95%;
-  max-width: 800px;
+  max-width: 500px;
   margin: 5px auto;
+}
+
+.form-field-format label {
+  display: inline-block;
 }
 
 .cta-sec {

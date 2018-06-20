@@ -167,14 +167,6 @@ main {
   text-decoration: underline;
 }
 
-#idx-headshots-wrapper figure img {
-
-}
-
-#idx-workshops-wrapper figure img {
-
-}
-
 .main-header {
   width: 100%;
 }
@@ -332,84 +324,14 @@ article figure {
   width: 33%;
 }
 
-
-#headshots-figure-01 {
-  background-image: url("img/headshots/white-female-real-estate-headshot.svg");
-  background-position: right;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-#headshots-figure-02 {
-  background-image: url("img/headshots/headshots-black-female.jpg");
+.headshots-figure, .workshops-figure {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-#headshots-figure-03 {
-  background-image: url("img/headshots/headshots-white-male.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-#headshots-figure-04 {
-  background-image: url("img/headshots/asian-couple-young-female-portrait.jpg");
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 500px;
-}
-
-#headshots-figure-05 {
-  background-image: url("img/headshots/asian-female-natural-mu-headshot.svg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-#headshots-figure-06 {
-  background-image: url("img/headshots/headshots-studio.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-#workshops-figure-01 {
-  background-image: url("img/workshops/RAW Montreal at Club Soda.jpg");
-  /* background-position: center; */
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-#workshops-figure-02 {
-  background-image: url("img/workshops/black-female-model-yellow-background.svg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-#workshops-figure-03 {
-  background-image: url("img/headshots/headshots-white-male.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-#workshops-figure-04 {
-  background-image: url("img/headshots/asian-couple-young-female-portrait.svg");
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 500px;
-}
-
-#workshops-figure-05 {
-  background-image: url("img/headshots/headshots-studio.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  width: 90%;
+  max-width: 500px;
+  background-color: gold;
+  border: 3px solid black;
 }
 
 article h2 {
@@ -427,10 +349,10 @@ main p {
 
 .contact {
   display: flex;
-  flex-flow: column;
-  align-items: center;
+  flex-flow: row wrap;
+  justify-content: center;
   width: 95%;
-  margin: 100px auto;
+  margin: 10px auto;
 }
 
 .contact h1 {
@@ -447,14 +369,11 @@ main p {
   text-align: center;
 }
 
-
 .contact .form-container {
   margin: 30px;
 }
 
-
-
-.contact .cta-button {
+.contact .call-to-action-button {
   font-size: 2rem;
   font-family: arial;
   text-transform: uppercase;
@@ -492,6 +411,7 @@ main p {
 .form-container .fees li:nth-child(3) {
   margin-top: 20px;
 }
+
 .form-container header {
   text-align: center;
   width: 100%;
@@ -512,17 +432,38 @@ form {
   width: 100%;
 }
 
-input {
-  margin: 10px auto;
-  width: 90%;
-  max-width: 400px;
-  height: 55px;
-  font-size: 1.25rem;
-  font-family: arial;
-  border: 2px solid silver;
+.form-field-format {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+  border: 1px solid gray;
+  border-radius: 3px;
+  margin: 5px;
 }
 
-.cta-button {
+.form-field-format > label {
+  display: none;
+  font-size: 1.5rem;
+}
+
+.form-field-format span {
+  padding: 5px;
+}
+
+input {
+  /* margin: 10px auto; */
+  width: 100%;
+  height: 35px;
+  font-size: 1.25rem;
+  font-family: arial;
+  /* border: 2px solid silver; */
+}
+
+#confirm {
+  display: inline-block;
+}
+
+.call-to-action-button {
   margin: 10px auto;
   padding: 10px 30px;
   border-radius: 5px;
@@ -533,13 +474,13 @@ input {
   background: linear-gradient(rgb(190, 30, 45, 0.5)45%, rgb(190, 30, 45, 1));
 }
 
-.cta-button:active {
+.call-to-action-button:active {
   background-color: white;
   border-radius: 5px;
   box-shadow: 1px 1px 5px gray;
 }
 
-.cta-sec {
+.call-to-action-sec {
   margin-top: 20px;
   border: 4px solid red;
   border-radius: 5px;

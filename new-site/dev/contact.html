@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="main.css">
   <link rel="stylesheet" href="mq-680-800.css" media="(min-width:680px)">
   <link rel="stylesheet" href="mq-800-plus.css" media="(min-width:800px)">
-  <script defer src="js/svg-with-js/js/fontawesome-all.js"></script>
+  <script defer src="../js/svg-with-js/js/fontawesome-all.js"></script>
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -39,34 +39,34 @@
           <p>For general inquiries please fill out the form below.</p>
           <p>I tend to reply same day or within 24 hours.</p>
           <p>Thank you for visiting!</p>
-          <div>
-            <label for="name">Name: </label>
+          <div class="form-field-format">
+            <label for="name">Name</label>
             <span class="form-icon"><i class="fal fa-user"></i></span>
             <input type="text" id="name" name="name" title="enter your name" placeholder="* Please enter your name" value="<?php $name; ?>" autocomplete="off">
           </div>
-          <div>
-            <label for="email">Email: </label>
+          <div class="form-field-format">
+            <label for="email">Email</label>
             <span class="form-icon"><i class="fal fa-envelope"></i></span>
             <input type="text" id="email" name="email" title="enter your email address" placeholder="* Please enter your email address" value="<?php $name; ?>" autocomplete="off">
           </div>
-          <div>
-            <label for="phone">Phone: </label>
+          <div class="form-field-format">
+            <label for="phone">Phone</label>
             <span class="form-icon"><i class="fal fa-mobile-android-alt"></i></span>
             <input type="text" id="phone" name="tel">
           </div>
           <h3>If you are booking an appointment, please use the fields below to indicate preferred day and time</h3>
-          <div>
-            <label for="date">Day: </label>
+          <div class="form-field-format">
+            <label for="date">Day</label>
             <span class="form-icon"><i class="fal fa-calendar-alt"></i></span>
             <input type="date" id="date" name="date">
           </div>
-          <div>
-            <label for="time">Time: </label>
+          <div class="form-field-format">
+            <label for="time">Time</label>
             <span class="form-icon"><i class="fal fa-clock"></i></span>
             <input type="datetime" id="time" name="time">
           </div>
-          <div>
-            <label for="comment">Add note: </label>
+          <div class="form-field-format">
+            <label for="comment">Add note</label>
             <span class="form-icon"><i class="fal fa-comment"></i></span>
             <textarea name="name" rows="8" cols="80"></textarea>
           </div>
